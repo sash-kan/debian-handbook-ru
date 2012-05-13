@@ -1176,32 +1176,18 @@ iptables -t mangle -A PREROUTING -p tcp --dport ssh -j TOS --set-tos Minimize-De
     network to be globally available, you must ensure that you have an
     IPv6-capable router relaying traffic to the global IPv6 network.</para>
 
-    <sidebar>
-      <title><emphasis>CULTURE</emphasis> The 6bone</title>
-      <indexterm><primary>6bone</primary></indexterm>
-
-      <para>During the experimental phase of the IPv6 protocol, a global
-      network infrastructure was set up to facilitate testing of the new
-      protocol. That network was known as the
-      <foreignphrase>6bone</foreignphrase>, a contraction of the 6 in IPv6
-      and the <emphasis>network backbone</emphasis>. This 6bone officially
-      disappeared on the 6th of June, 2006 (note the omnipresence of the
-      number 6), but the nickname is still used to refer to that part of
-      the Internet capable of handling IPv6.</para>
-    </sidebar>
-
     <example id="example.network-interfaces-ipv6">
       <title>Example of IPv6 configuration</title>
 
       <programlisting>
 iface eth0 inet6 static
-    address 3ffe:ffff:1234:5::1:1
+    address 2001:db8:1234:5::1:1
     netmask 64
     # Disabling auto-configuration
     # up echo 0 &gt;/proc/sys/net/ipv6/conf/all/autoconf
     # The router is auto-configured and has no fixed address
     # (/proc/sys/net/ipv6/conf/all/accept_ra). If it had:
-    # gateway 3ffe:ffff:1234:5::1
+    # gateway 2001:db8:1234:5::1
 </programlisting>
     </example>
 
@@ -1271,9 +1257,9 @@ if_prefix=eth0
       <indexterm><primary>firewall</primary><secondary>IPv6</secondary></indexterm>
       <indexterm><primary><command>ip6tables</command></primary></indexterm>
 
-      <para>Native IPv6 (as opposed to a tunnel over IPv4) requires the
-      firewall to accept the traffic, which uses IP protocol number 41.
-      Connections can still be restricted, in the same fashion as for IPv4:
+      <para>IPv6 tunneling over IPv4 (as opposed to native IPv6) requires the
+      firewall to accept the traffic, which uses IPv4 protocol number 41.
+      IPv6 connections can be restricted, in the same fashion as for IPv4:
       the standard Debian kernels include an adaptation of
       <emphasis>netfilter</emphasis> for IPv6. This IPv6-enabled
       <emphasis>netfilter</emphasis> is configured in a similar fashion to
