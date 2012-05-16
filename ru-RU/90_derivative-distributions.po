@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2012-05-09T20:00:22\n"
 "PO-Revision-Date: 2012-05-09T20:00:22\n"
-"Last-Translator: Automatically generated\n"
+"Last-Translator: sledopit i@irush.su\n"
 "Language-Team: None\n"
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
@@ -15,175 +15,175 @@ msgstr ""
 #. Tag: keyword
 #, no-c-format
 msgid "Live CD"
-msgstr ""
+msgstr "Live CD"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Specificities"
-msgstr ""
+msgstr "Особенности"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Particular Choices"
-msgstr ""
+msgstr "Особенности выбора"
 
 #. Tag: title
 #, no-c-format
 msgid "Derivative Distributions"
-msgstr ""
+msgstr "Производные дистрибутивы"
 
 #. Tag: para
 #, no-c-format
 msgid "<indexterm><primary>derivative distribution</primary></indexterm> <indexterm><primary>distribution, derivative</primary></indexterm> Many Linux distributions are derivatives of Debian and reuse Debian's package management tools. They all have their own interesting properties, and it is possible one of them will fulfill your needs better than Debian itself."
-msgstr ""
+msgstr "<indexterm><primary>производные дистрибутивы</primary></indexterm> <indexterm><primary>дистрибутивы, производные</primary></indexterm> Многие дистрибутивы Linux происходят от Debian и используют дебиановскую систему управления пакетами. Все они обладают собственными особенностями и, возможно, один из них будет подходить вам гораздо больше, нежели сам Debian."
 
 #. Tag: title
 #, no-c-format
 msgid "Census and Cooperation"
-msgstr ""
+msgstr "Перепись и сотрудничество"
 
 #. Tag: para
 #, no-c-format
 msgid "The Debian project fully acknowledges the importance of derivative distributions and actively supports collaboration between all involved parties. This usually involves merging back the improvements initially developed by derivative distributions so that everyone can benefit and long-term maintenance work is reduced."
-msgstr ""
+msgstr "Проект Debian осознаёт важность произвожных дистрибутивов и активно сотрудничает с ними. Это проявляется в объединении улучшений, изначально разработанных производными дистрибутивами, таким образом снижая издержки на поддержку."
 
 #. Tag: para
 #, no-c-format
 msgid "This explains why derivative distributions are invited to become involved in discussions on the <literal>debian-derivatives@lists.debian.org</literal> mailing-list, and to participate in the derivative census. This census aims at collecting information on work happening in a derivative so that official Debian maintainers can better track the state of their package in Debian variants. <ulink type=\"block\" url=\"http://wiki.debian.org/DerivativesFrontDesk\" /><ulink type=\"block\" url=\"http://wiki.debian.org/Derivatives/Census\" />"
-msgstr ""
+msgstr "Это объясняет почем производные дистрибутивы приглашаются для участи в почтовой рассылке <literal>debian-derivatives@lists.debian.org</literal> и учавствуют в переписи производных дистрибутивов. Перепись предназначена собрать информацию о работах, проходящих в производных дистрибутивах, чтобы мейнтйнеры Debian могли следить за состоянием своих пакетов в производных Debian."
 
 #. Tag: para
 #, no-c-format
 msgid "Let us now briefly describe the most interesting and popular derivative distributions."
-msgstr ""
+msgstr "Разрешите нам представить наиболее интересные и популярные производные дистрибутивы."
 
 #. Tag: title
 #, no-c-format
 msgid "Ubuntu"
-msgstr ""
+msgstr "Ubuntu"
 
 #. Tag: para
 #, no-c-format
 msgid "<indexterm><primary>Ubuntu</primary></indexterm> Ubuntu made quite a splash when it came on the Free Software scene, and for good reason: Canonical Ltd., the company that created this distribution, started by hiring thirty-odd Debian developers and publicly stating the far-reaching objective of providing a distribution for the general public with a new release twice a year. They also committed to maintaining each version for a year and a half for both core and security-related components."
-msgstr ""
+msgstr "<indexterm><primary>Ubuntu</primary></indexterm> Ubuntu ярко появилась на сцене свободного программного обеспечения и этому есть причина: Canonical Ltd., компания, создавшая дистрибутив, наняла более 30 разработчиков Debian и публично заявили о своих целях выпускать релиз для общественности два раза в год. Они так же поддерживали каждую версию полтора года по общим вопросам и вопросам безопасности."
 
 #. Tag: para
 #, no-c-format
 msgid "These objectives necessarily involve a reduction in scope; Ubuntu focuses on a smaller number of packages than Debian, and relies primarily on the GNOME desktop (although an official Ubuntu derivative, called “Kubuntu”<indexterm><primary>Kubuntu</primary></indexterm>, relies on KDE). Everything is internationalized and made available in a great many languages."
-msgstr ""
+msgstr "Эти положения вынуждают сокращать сферу работы: Ubuntu сосредоточено вокруг меньшего числа пакетов, нежели Debian и зависит только от окружения GNOME (однако есть производный дистрибутив от Ubuntu - “Kubuntu”<indexterm><primary>Kubuntu</primary></indexterm>, который зависит от KDE). Дистрибутив интернационализирован и доступен на многих языках."
 
 #. Tag: para
 #, no-c-format
 msgid "So far, Ubuntu has managed to keep this release rhythm. They also publish <emphasis>Long Term Support</emphasis> (LTS) releases, with a 5-year maintenance promise. As of April 2012, the current LTS version is version 12.04, nicknamed Precise Pangolin. The latest non-LTS version is 11.10, nicknamed Oneiric Ocelot. Version numbers describe the release date: 11.10, for example, was released in October 2011."
-msgstr ""
+msgstr "До сих пор Ubuntu удаётся сохранить такую периодичность релизов. Так же есть релизы <emphasis>Long Term Support</emphasis> (LTS) (релиз расширенной поддержки) с 5летним периодом поддержки.В апреле 2012 текущий LTS релиз - 12.04 с кодовым именем Precise Pangolin. Последняя не-LTS версия 11.10 с кодовым именем Oneiric Ocelot. Номера версий привязаны к дате релиза: 11.10 означает, что версия выбущена в октябре 2011."
 
 #. Tag: para
 #, no-c-format
 msgid "Ubuntu has reached a wide audience in the general public. Millions of users were impressed by its ease of installation, and the work that went into making the desktop simpler to use."
-msgstr ""
+msgstr "Ubuntu завоевало широкую аудиторию. Миллионы пользователей были поражены простотой установки и простотой испольозвания рабочего окружения в работе."
 
 #. Tag: para
 #, no-c-format
 msgid "However, not everything is fine and dandy, especially for Debian developers who placed great hopes in Ubuntu contributing directly to Debian. Even though this situation has improved over the years, many have been irked by the Canonical marketing, which implied Ubuntu were good citizens in the Free Software world simply because they made public the changes they applied to Debian packages. Free Software proponents understand that an automatically-generated patch is of little use to the upstream contribution process. Getting one's work integrated requires direct interaction with the other party."
-msgstr ""
+msgstr "Однако не всё прекрасно в датском королевстве, особенно для разработчиков Debian, которые возлагали большие надежды на то, что Ubuntu будет вносить свой вклад в Debian. Хотя ситуация улучшилась в последние годы, многие были раздражены маркетологами из Canonical, которые представляли Ubuntu как примерных граждан в мире свободного программного обеспечения только потому что публично вносили изменения в пакеты Debian. Сторонники свободного программного обеспечения понимают, что автоматически сгенерированные патчи лишь малая часть процесса разработки. Работа по интеграции требует прямого взаимодействия с другой стороной."
 
 #. Tag: para
 #, no-c-format
 msgid "This interaction is becoming more common over time, thanks in part to the Ubuntu community and the efforts it makes in educating its new contributors. But this policy is still not enforced by Canonical on its employees. Some kept true to their roots, and do make the required effort (Colin Watson, Martin Pitt and Matthias Klose are noteworthy in this regard), but others — often overworked — can no longer find it in them. <ulink type=\"block\" url=\"http://www.ubuntu.com/\" />"
-msgstr ""
+msgstr "Но со временем такое взаимодействие встречается всё чаще, во многом благодаря сообществу Ubuntu и их усилиям по обучению новых участников. Однако подобная политика по прежнему не применяется сотрудниками Canonical. Некоторые чтут свои корни и прилагают все необходимые усилия (особенно примечательны в этом отношении Колин Уотсон, Мартин Пит и Матиас Клозе), но другие, часто перегруженные работой, не могут уделить этому достаточно внимания. <ulink type=\"block\" url=\"http://www.ubuntu.com/\" />"
 
 #. Tag: title
 #, no-c-format
 msgid "Knoppix"
-msgstr ""
+msgstr "Knoppix"
 
 #. Tag: para
 #, no-c-format
 msgid "<indexterm><primary><foreignphrase>LiveCD</foreignphrase></primary></indexterm> <indexterm><primary>Knoppix</primary></indexterm> <indexterm><primary>bootable CD-ROM</primary></indexterm> <indexterm><primary>CD-ROM</primary><secondary>bootable</secondary></indexterm> The Knoppix distribution barely needs an introduction. It was the first popular distribution to provide a <emphasis>LiveCD</emphasis>; in other words, a bootable CD-ROM that runs a turn-key Linux system with no requirement for a hard-disk — any system already installed on the machine will be left untouched. Automatic detection of available devices allows this distribution to work in most hardware configurations. The CD-ROM includes almost 2 GB of (compressed) software."
-msgstr ""
+msgstr "<indexterm><primary><foreignphrase>LiveCD</foreignphrase></primary></indexterm> <indexterm><primary>Knoppix</primary></indexterm> <indexterm><primary>загрузочный CD-ROM</primary></indexterm> <indexterm><primary>CD-ROM</primary><secondary>загрузочный</secondary></indexterm>. Определённо нуждается в упоминании дистрибутив Knoppix. Это первый популярный дистрибутив <emphasis>LiveCD</emphasis>. Иными словами с загрузочного диска запускается система Linux, полностью готовая к работе и ей абсолютно не нужен жёсткий диск. Любая система уже установленная на этой машине не подвергнется изменениям. Автоматическое определение устрояств позволяет дистрибутиву работать на большинстве встречаемых конфигураций оборудования. CD-ROM включает в себя около 2 GB (сжатого) программного обеспечения."
 
 #. Tag: para
 #, no-c-format
 msgid "Combining this CD-ROM and a USB stick allows carrying your files with you, and to work on any computer without leaving a trace — remember that the distribution doesn't use the hard-disk at all. Knoppix is mostly based on LXDE (a lightweight graphical desktop), but many other distributions provide other combinations of desktops and software. This is, in part, made possible thanks to the <emphasis role=\"pkg\">live-build</emphasis> Debian package that makes it relatively easy to create a LiveCD. <ulink type=\"block\" url=\"http://live.debian.net/\" />"
-msgstr ""
+msgstr "Связка CD-ROM и USB флэш позволяет вам всегда иметь свои файлы при себе и работать на любом компьютере не оставляя следов, т.к. дистрибутив совсем не использует жёсткий диск. Knoppix базируется на LXDE (легковесное графическое окружение), однако многие другие дистрибутивы предостваляют иные комбинации рабочего окружения и программного обеспечения. Это возможно, благодаря утилите <emphasis role=\"pkg\">live-build</emphasis>, которая позволяет относительно легко создавать  LiveCD. <ulink type=\"block\" url=\"http://live.debian.net/\" />"
 
 #. Tag: para
 #, no-c-format
 msgid "Note that Knoppix also provides an installer: you can first try the distribution as a LiveCD, then install it on a hard-disk to get better performance. <ulink type=\"block\" url=\"http://www.knopper.net/knoppix/index-en.html\" />"
-msgstr ""
+msgstr "Стоит отметить, что у Knoppix так же имеется установщик: вы можете сначала попробовать дистрибутив в качестве LiveCD, а затем установить на жёсткий диск для увеличения производительности. <ulink type=\"block\" url=\"http://www.knopper.net/knoppix/index-en.html\" />"
 
 #. Tag: title
 #, no-c-format
 msgid "Linux Mint"
-msgstr ""
+msgstr "Linux Mint"
 
 #. Tag: para
 #, no-c-format
 msgid "<indexterm><primary>Linux Mint</primary></indexterm> Linux Mint is a (partly) community-maintained distribution, supported by donations and advertisements. Their flagship product is based on Ubuntu, but they also provide a “Linux Mint Debian Edition” variant that evolves continuously (as it's based on Debian Testing). In both cases, the initial installation involves booting a LiveDVD."
-msgstr ""
+msgstr "<indexterm><primary>Linux Mint</primary></indexterm> Linux Mint - дистрибутив, поддерживаемый сообществом, пожертвованиями и рекламой. Их продукт основан на Ubuntu, но так же предоставляет вариант “Linux Mint Debian Edition”, который постоянно развивается и основан на Debian Testing. В обоих случаях первоначальная установка производится с LiveDVD."
 
 #. Tag: para
 #, no-c-format
 msgid "The distribution aims at simplifying access to advanced technologies, and provides specific graphical user interfaces on top of the usual software. For instance, even though Linux Mint relies on GNOME, it provides a different menu system; similarly, the package management interface, although based on APT, provides a specific interface with an evaluation of the risk from each package update."
-msgstr ""
+msgstr "Цели дистрибутива - упростить доступ к продвинутым технологиям и предоставить специальный графический интерфейс к популярному программному обеспечению. Например, даже не смотря на то, что Linux Mint использует GNOME, система меню в нём совершенно иная. Или пакетный менеджер, основанный на APT предоставляет особый интерфейс с оценкой риска от обновления каждого пакета."
 
 #. Tag: para
 #, no-c-format
 msgid "Linux Mint includes a large amount of proprietary software so as to ensure the best possible user experience. For example: Adobe Flash and multimedia codecs. <ulink type=\"block\" url=\"http://www.linuxmint.com/\" />"
-msgstr ""
+msgstr "Linux Mint включает в себя большое количество проприетарного программного обеспечения для упрощения работы пользователям. Например Adobe Flash или мультимедийные кодеки. <ulink type=\"block\" url=\"http://www.linuxmint.com/\" />"
 
 #. Tag: title
 #, no-c-format
 msgid "SimplyMEPIS"
-msgstr ""
+msgstr "SimplyMEPIS"
 
 #. Tag: para
 #, no-c-format
 msgid "<indexterm><primary>SimplyMEPIS</primary></indexterm> SimplyMEPIS is a commercial distribution very similar to Knoppix. It provides a turn-key Linux system from a LiveCD, and includes a number of non-free software packages: device drivers for nVidia video cards, Flash for animations embedded in many websites, RealPlayer, Sun's Java, and so on. The goal is to provide a 100 % working system out of the box. Mepis is internationalized and handles many languages. <ulink type=\"block\" url=\"http://www.mepis.org/\" />"
-msgstr ""
+msgstr "<indexterm><primary>SimplyMEPIS</primary></indexterm> SimplyMEPIS - коммерческий дистрибутив, очень схожий с Knoppix. Он предоставляет систему Linux на LiveCD под ключ и включает ряд пакетов с несвободным программным обеспечением: драйвера для видеокарт nVidia, Flash для анимации, встроенной на множестве сайтов, RealPlayer, Sun's Java и так далее. Основне предназначение дистрибутива - предоставить 100% работающую систему из коробки. Mepis является международным и поддерживает множество языков. <ulink type=\"block\" url=\"http://www.mepis.org/\" />"
 
 #. Tag: para
 #, no-c-format
 msgid "This distribution was originally based on Debian; it went to Ubuntu for a while, then came back to Debian, which allows its developers to focus on adding features without having to stabilize packages coming from Debian's <emphasis role=\"distribution\">Unstable</emphasis> distribution."
-msgstr ""
+msgstr "Этот дистрибутив изначально базировался на Debian, затем ненадолго перешёл на Ubuntu, но потом снова вернулся на Debian, что позволило сосредоточиться на добавлении функционала без проблем со стабилизацией пакетов, приходящих из <emphasis role=\"distribution\">Unstable</emphasis> ветки дистрибутива."
 
 #. Tag: title
 #, no-c-format
 msgid "Aptosid (Formerly Sidux)"
-msgstr ""
+msgstr "Aptosid (Formerly Sidux)"
 
 #. Tag: para
 #, no-c-format
 msgid "<indexterm><primary>Sidux</primary></indexterm> <indexterm><primary>Aptosid</primary></indexterm> This community-based distribution tracks the changes in Debian <emphasis role=\"distribution\">Sid</emphasis> (<emphasis role=\"distribution\">Unstable</emphasis>) — hence its name — and tries to release 4 new versions each year. The modifications are limited in scope: the goal is to provide the most recent software and to update drivers for the most recent hardware, while still allowing users to switch back to the official Debian distribution at any time. <ulink type=\"block\" url=\"http://aptosid.com\" />"
-msgstr ""
+msgstr "<indexterm><primary>Sidux</primary></indexterm> <indexterm><primary>Aptosid</primary></indexterm> Этот дистрибутив отслеживает изменения в Debian <emphasis role=\"distribution\">Sid</emphasis> (<emphasis role=\"distribution\">Unstable</emphasis>) - отсюда и имя - и старается выпускать 4 релиза в год. Все изменения ограничены следующими положениями: цель дистрибутива - предоставить наиболее свежие версии программного обеспечения и обновления драйверов для последних версий аппаратуры, и в тоже время позволяет пользователю в любой момент переключиться на официальный дистрибутив Debian. <ulink type=\"block\" url=\"http://aptosid.com\" />"
 
 #. Tag: title
 #, no-c-format
 msgid "Damn Small Linux"
-msgstr ""
+msgstr "Damn Small Linux"
 
 #. Tag: para
 #, no-c-format
 msgid "This distribution provides a tiny LiveCD, weighing only 50 MB, so that it can fit on a CD-ROM with the shape and size of a business card. This can be useful for using Debian on an aging computer. <ulink type=\"block\" url=\"http://www.damnsmalllinux.org/\" />"
-msgstr ""
+msgstr "Этот дистрибутив предоставляет LiveCD размеров всего лишь 50Мб и может уместиться на CD-ROM размером с визитной карточку. Это может пригодиться для использования на старых компьютерах. <ulink type=\"block\" url=\"http://www.damnsmalllinux.org/\" />"
 
 #. Tag: title
 #, no-c-format
 msgid "And Many More"
-msgstr ""
+msgstr "И многие другие"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Distrowatch</primary>"
-msgstr ""
+msgstr "<primary>Distrowatch</primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "The Distrowatch website references a huge number of Linux distributions, many of which are based on Debian. Browsing this site is a great way to get a sense of the diversity in the Free Software world. <ulink type=\"block\" url=\"http://distrowatch.com\" />"
-msgstr ""
+msgstr "Сайт Distrowatch ссылается на огромное число дистрибутивов Linux, многие из которых основаны на Debian. На их сайте можно убедиться в огромном разнообразии мира свободного программного обеспечения."
 
 #. Tag: para
 #, no-c-format
 msgid "The search form can help track down a distribution based on its ancestry. In January 2012, selecting Debian led to 141 active distributions! <ulink type=\"block\" url=\"http://distrowatch.com/search.php\" />"
-msgstr ""
+msgstr "Поиск может помочь определить происхождение дистрибутива. В январе 2012 поиск потомков Debian показывал 141 активный дистрибутив! <ulink type=\"block\" url=\"http://distrowatch.     com/search.php\" />"
 
