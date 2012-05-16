@@ -105,335 +105,335 @@ msgstr "Для кого эта книга?"
 #. Tag: para
 #, no-c-format
 msgid "We tried to make this book useful for many categories of readers. First, systems administrators (both beginners and experienced) will find explanations about the installation and deployment of Debian on many computers. They will also get a glimpse of most of the services available on Debian, along with matching configuration instructions and a description of the specifics coming from the distribution. Understanding the mechanisms involved in Debian's development will enable them to deal with unforeseen problems, knowing that they can always find help within the community."
-msgstr ""
+msgstr "Мы пытались сделать эту книгу полезной для всех категорий читателей. Системные администраторы (как новички, так и профессионалы) найдут инструкцию по установке и внедрении Debian на множество компьютеров, получат представление о большинстве сервисов, доступных в Debian, инструкцию по их настройке и описание специфики дистрибутива. А понимание мезанизмов разработки Debian поможет решать непредвиденные проблемы. Так же помощь можно найти у сообщества."
 
 #. Tag: para
 #, no-c-format
 msgid "Users of another Linux distribution, or of another Unix variant, will discover the specifics of Debian, and should become operational very quickly while benefitting fully from the unique advantages of this distribution."
-msgstr ""
+msgstr "Пользователи другие дистрибутивов Linux или Unix систем узнают специфику Debian и сразу же воспользоваться всеми преимуществами, присущими этому дистрибутиву."
 
 #. Tag: para
 #, no-c-format
 msgid "Finally, readers who already have some knowledge of Debian and want to know more about the community behind it should see their expectations fulfilled. This book should make them much closer to joining us as contributors."
-msgstr ""
+msgstr "И, наконец, пользователи уже знакомые с Debian, желающие узнать больше о сообществе дистрибутива, не разочаруются в своих ожиданиях. Эта книга может помочь им присоединиться к сообществу."
 
 #. Tag: title
 #, no-c-format
 msgid "Chosen Approach"
-msgstr ""
+msgstr "Выбранный подход"
 
 #. Tag: para
 #, no-c-format
 msgid "All of the generic documentation you can find about GNU/Linux also applies to Debian, since Debian includes most common free software. However, the distribution brings many enhancements, which is why we chose to primarily describe the “Debian way” of doing things."
-msgstr ""
+msgstr "Вся общая документация, которую вы можете найти о GNU/Linux так же относится и к Debian, так как Debian включает большую часть свободного программного обеспечения. Однако, дистрибутив привносит много усовершенствований, которые мы называем “Debian way” (“путь Debian”)."
 
 #. Tag: para
 #, no-c-format
 msgid "It is interesting to follow the Debian recommendations, but it is even better to understand their rationale. Therefore, we won't restrict ourselves to practical explanations only; we will also describe the project's workings, so as to provide you with comprehensive and consistent knowledge."
-msgstr ""
+msgstr "Весьма полезно следовать рекомендациям Debian, но гораздо лучше понять их причины. К тому же мы не ограничиваем себя исключительно практическими объяснениями, мы так же описываем работу проекта, чтобы предоставить вам наиболее полные и всеохватывающие знания."
 
 #. Tag: title
 #, no-c-format
 msgid "Book Structure"
-msgstr ""
+msgstr "Структура книги"
 
 #. Tag: para
 #, no-c-format
 msgid "Following the structure and aims of Eyrolles' “Administrator's Handbook” collection, this book revolves around a case study providing both support and illustration for all topics being addressed."
-msgstr ""
+msgstr "В соответствии со структурой и задачами серии “Настольная книга администратора” издательства Eyerolles, эта книга предоставляет поддержку и иллюстрации ко всем обсуждаемым темам."
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>NOTE</emphasis> Web site, authors' email"
-msgstr ""
+msgstr "<emphasis>ЗАМЕТКА</emphasis> Веб-сайт, e-mail авторов"
 
 #. Tag: para
 #, no-c-format
 msgid "This book has its own website, which hosts whatever elements that can make it more useful. In particular, it includes an online version of the book with clickable links, and possible errata. Feel free to browse it and to leave us some feedback. We will be happy to read your comments or support messages. Send them by email to <email>hertzog@debian.org</email> (Raphaël) and <email>lolando@debian.org</email> (Roland). <ulink type=\"block\" url=\"http://debian-handbook.info/\" />"
-msgstr ""
+msgstr "Эта книга имеет собственный веб-сайт, который содержит множество полезный вещей. В частности, там есть онлайн версия книги с кликабельными ссылкам и возможными ошибками. Мы открыты для обратной связи и всегда рады прочитать ваши предложения или тёплые слова благодарности. Вы можете прислать их на почту <email>hertzog@debian.org</email> (Рафаэль) или <email>lolando@debian.org</email> (Роланд). <ulink type=\"block\" url=\"http://debian-handbook.info/\" />"
 
 #. Tag: para
 #, no-c-format
 msgid "<emphasis role=\"strong\">Chapter 1</emphasis> focuses on a non-technical presentation of the Debian project and describes its goals and organization. These aspects are important because they define a general framework that others chapters will complete with more concrete information."
-msgstr ""
+msgstr "<emphasis role=\"strong\">Глава 1</emphasis> посвящена нетехническому представлению проекта Debian и описанию его целей и организации. Эти вопросы очень важны, потому что они определяют общие направления, которые дополнятся более конкретнной информацией в других главах."
 
 #. Tag: para
 #, no-c-format
 msgid "<emphasis role=\"strong\">Chapters 2 and 3</emphasis> provide a broad outline of the case study. At this point, novice readers can take the time to read <emphasis role=\"strong\">appendix B</emphasis>, where they'll find a short remedial course explaining a number of basic computing notions, as well as concepts inherent to any Unix system."
-msgstr ""
+msgstr "<emphasis role=\"strong\">Главы 2 и 3</emphasis> освещают общие черты. На этом этапе новички могут обратиться к <emphasis role=\"strong\">приложению B</emphasis>, где можно найти краткий курс, объясняющий основные компьютерные понятия, а так же положения, присущие любой Unix системе."
 
 #. Tag: para
 #, no-c-format
 msgid "To get on with our real subject matter, we will quite naturally start with the installation process (<emphasis role=\"strong\">chapter 4</emphasis>); <emphasis role=\"strong\">chapters 5 and 6</emphasis> will unveil basic tools that any Debian administrator will use, such as those of the <emphasis role=\"strong\">APT</emphasis> family, which is largely responsible for the distribution's excellent reputation. These chapters are in no way reserved to professionals, since everyone is their own administrator at home."
-msgstr ""
+msgstr "Чтобы перейти непосредственно к нашей теме, мы начнём с процесса установки (<emphasis role=\"strong\">глава 4</emphasis>). <emphasis role=\"strong\">Главы 5 и 6</emphasis> расскажет об основных инструментах, которые использует любой администратор Debian. Один из таких инструментов - инструменты семейства <emphasis role=\"strong\">APT</emphasis>, от которых сильно зависит отличная репутация дистрибутива. Эти главы предназначены не только для профессионалов, потому что каждый является администратором своей собственной домашней системы."
 
 #. Tag: para
 #, no-c-format
 msgid "<emphasis role=\"strong\">Chapter 7</emphasis> will be an important parenthesis; it describes workflows to efficiently use documentation and to quickly gain an understanding of problems in order to solve them."
-msgstr ""
+msgstr "<emphasis role=\"strong\">Глава 7</emphasis> будет весьма важной главой. Она научит эффективно использовать документацию для понимания сути проблемы и её дальнейшего решения."
 
 #. Tag: para
 #, no-c-format
 msgid "The next chapters will be a more detailed tour of the system, starting with basic infrastructure and services (<emphasis role=\"strong\">chapters 8 to 10</emphasis>) and going progressively up the stack to reach the user applications in <emphasis>chapter 13</emphasis>. <emphasis role=\"strong\">Chapter 12</emphasis> deals with more advanced subjects that will most directly concern administrators of large sets of computers (including servers), while <emphasis role=\"strong\">chapter 14</emphasis> is a brief introduction to the wider subject of computer security and gives a few keys to avoid most problems."
-msgstr ""
+msgstr "Следующая глава более детально расскажет о системе, начиная с базового устройства и сервисов (<emphasis role=\"strong\">главы с 8 по 10</emphasis>) и постепенно перейдёт к пользовательским приложением в <emphasis>главе 13</emphasis>. <emphasis role=\"strong\">Глава 12</emphasis> описывает углублённые вещи, которые в большей степени относятся к администраторам множества машин (включая сервера), а краткое описание более широкой темы компьютерной безопасности и несколько рекомендаций по избежанию большинства проблем можно найти в <emphasis role=\"strong\">главе 14</emphasis>."
 
 #. Tag: para
 #, no-c-format
 msgid "<emphasis role=\"strong\">Chapter 15</emphasis> is for administrators who want to go further and create their own Debian packages."
-msgstr ""
+msgstr "<emphasis role=\"strong\">Глава 15</emphasis> предназначена для администраторов, кто хочет углубиться ещё больше и создавать собственные Debian пакеты."
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>VOCABULARY</emphasis> Debian package"
-msgstr ""
+msgstr "<emphasis>СЛОВАРЬ</emphasis> Debian пакет"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>package</primary><secondary>Debian package</secondary>"
-msgstr ""
+msgstr "<primary>пакет</primary><secondary>Debian пакет</secondary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>package</primary><secondary>binary package</secondary>"
-msgstr ""
+msgstr "<primary>пакет</primary><secondary>бинарный пакет</secondary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>package</primary><secondary>source package</secondary>"
-msgstr ""
+msgstr "<primary>пакет</primary><secondary>пакет с исходниками</secondary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>source package</primary>"
-msgstr ""
+msgstr "<primary>пакет с исходниками</primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "A Debian package is an archive containing all the files required to install a piece of software. It is generally a file with a <filename>.deb</filename> extension, and it can be handled with the <command>dpkg</command> command. Also called <emphasis>binary package</emphasis>, it contains files that can be directly used (such as programs or documentation). On the other hand, a <emphasis>source package</emphasis> contains the source code for the software and the instructions required for building the binary package."
-msgstr ""
+msgstr "Debian пакет - это архив, содержащий все файлы, необходимые для установки программного обеспечения. Это файл с расширением имени файла <filename>.deb</filename>, он может быть обработан командой <command>dpkg</command>. <emphasis>Бинарный пакет</emphasis> содержит файлы, которые могут быть использованы напрямую (программы или документация). С другой стороны <emphasis>пакет с исходниками</emphasis> содержит исходный код программного обеспечения и инструкции, необходимые для создания бинарного пакета."
 
 #. Tag: para
 #, no-c-format
 msgid "The present English version is based on the fifth edition of the French book. This fifth edition was an important update, covering version 6.0 of Debian, code-named <emphasis role=\"distribution\">Squeeze</emphasis>. Among the changes, Debian now sports two new architectures — <emphasis>kfreebsd-i386</emphasis> and <emphasis>kfreebsd-amd64</emphasis> — based on the FreeBSD kernel and supporting the associated technologies (<emphasis>jails</emphasis>, <emphasis>packet filter</emphasis> and so on). On Linux-based architectures, the 2.6.32 kernel extends support to all the main virtualization technologies (Xen/OpenVZ/LXC/KVM, see <xref linkend=\"sect.virtualization\" />). All included packages have obviously been updated. Many improvements specifically target package maintainers, who can now use a simplified <filename>debian/rules</filename> (with debhelper's <command>dh</command> command); they also benefit from a standard patch management system integrated to <command>dpkg-source</command> (by using the <literal>3.0 (quilt)</literal> source package format)."
-msgstr ""
+msgstr "Данная английская версия основана на пятом издание французской книги. Пятой издание было важным обновлением, которое относится к 6.0 версии Debian с кодовым именем <emphasis role=\"distribution\">Squeeze</emphasis>. Среди прочих изменений, Debian теперь поддерживает две новые архитектуры - <emphasis>kfreebsd-i386</emphasis> и <emphasis>kfreebsd-amd64</emphasis> - основанные на ядре FreeBSD и поддерживают связанные технологии ((<emphasis>jails</emphasis>, <emphasis>packet filter</emphasis> и другие). На архитектурах, основанных на Linux, ядро 2.6.32 поддерживает все основные технологии виртуализации (Xen/OpenVZ/LXC/KVM, см. <xref linkend=\"sect.virtualization\" />). Все включённые пакеты так же были обновлены. Многие улучшения были предназначены для мейнтйнеров пакетов, которые теперь используют успрощённый <filename>debian/rules</filename> (с командой <command>dh</command> из пакета debhelper). Так же улучшена система управления обновлениями, интегрированная в <command>dpkg-source</command> (с использованием формата пакетов с исходниками <literal>3.0 (quilt)</literal>)."
 
 #. Tag: para
 #, no-c-format
 msgid "We have added some notes and remarks in sidebars. They have a variety of roles: they can draw attention to a difficult point, complete a notion of the case study, define some terms, or serve as reminders. Here is a list of the most common of these sidebars:"
-msgstr ""
+msgstr "Мы добавили некоторые заметки и ремарки. Они играют различную роль: они могу обратить внимание на трудные моменты, дополнить пример, объяснить термин или служить как напоминание. ЗВот список таких пометок."
 
 #. Tag: para
 #, no-c-format
 msgid "BACK TO BASICS: a reminder for some information that is supposed to be known;"
-msgstr ""
+msgstr "НАЗАД К ОСНОВАМ: напоминание о информации, которая, как предполагается, уже известна;"
 
 #. Tag: para
 #, no-c-format
 msgid "VOCABULARY: defines a technical term, sometimes Debian specific;"
-msgstr ""
+msgstr "СЛОВАРЬ: определяет технический термин, порос специфичный для Debian;"
 
 #. Tag: para
 #, no-c-format
 msgid "COMMUNITY: highlights important persons or roles within the project;"
-msgstr ""
+msgstr "СООБЩЕСТВО: подчёркивает важного человека или положение в проекте"
 
 #. Tag: para
 #, no-c-format
 msgid "POLICY: a rule or recommendation from the Debian Policy. This document is essential within the project, and describes how to package software. The parts of policy highlighted in this book bring direct benefits to users (for example, knowing that the policy standardizes the location of documentation and examples makes it easy to find them even in a new package)."
-msgstr ""
+msgstr "ПОЛИТИКА: правило или рекомендация из политики Debian. Этот документ - неотъемлемая часть проекта. Он описывает как подготавлить программное обеспечение для упаковки в пакеты. Части документа, подсвеченные в этой книге, могут принести пользу и пользователям (например, знание полоитики стандартов размещения документации и примеров позволяет легко их найти даже в незнакомых пакетах)."
 
 #. Tag: para
 #, no-c-format
 msgid "TOOL: presents a relevant tool or service;"
-msgstr ""
+msgstr "ИНСТРУМЕНТ: представляет полезный инструмент или сервис;"
 
 #. Tag: para
 #, no-c-format
 msgid "IN PRACTICE: theory and practice do not always match; these sidebars contain advice resulting from our experience. They can also give detailed and concrete examples;"
-msgstr ""
+msgstr "НА ПРАКТИКЕ: теория и практика не всегда соотвествуют, поэтому подобные заметки содержат советы, основанные на нашем опыте. Они так же дают подробные и конкретные примеры;"
 
 #. Tag: para
 #, no-c-format
 msgid "other more or less frequent sidebars are rather explicit: CULTURE, TIP, CAUTION, GOING FURTHER, SECURITY, and so on."
-msgstr ""
+msgstr "другие менее часто встречаемые заметки: КУЛЬУТРА, ПОДСКАЗКА, ВНИМАНИЕ, УГЛУБЛЯЕСЯ, БЕЗОПАСНОСТЬ и так далее."
 
 #. Tag: title
 #, no-c-format
 msgid "Acknowledgments"
-msgstr ""
+msgstr "Благодарности"
 
 #. Tag: title
 #, no-c-format
 msgid "A Bit of History"
-msgstr ""
+msgstr "Немного истории"
 
 #. Tag: para
 #, no-c-format
 msgid "In 2003, Nat Makarevitch contacted me (Raphaël) because he wanted to publish a book on Debian in the <foreignphrase>Cahier de l'Admin</foreignphrase> (Admin's Handbook) collection that he was managing for Eyrolles, a leading French editor of technical books. I immediately accepted to write it. The first edition came out on 14th October 2004 and was a huge success — it was sold out barely four months later."
-msgstr ""
+msgstr "В 2003 Нат Макаревич связался со мной (Рафаэль), потому что он хотел опубликовать книгу о Debian в серии <foreignphrase>Cahier de l'Admin</foreignphrase> (настольная книга администратора), которой он занимался для ведущего французского издателя технических книг Eyrolles. Я незамедлительно согласиля написать её. Первое издание вышло 14 октября 2004 и имело огромный успех - оно было полностью распродано за 4 месяца."
 
 #. Tag: para
 #, no-c-format
 msgid "Since then, we have released 4 other editions of the French book, one for each subsequent Debian release. Roland Mas, who started working on the book as my proofreader, gradually became its co-author."
-msgstr ""
+msgstr "С тех пор мы выпустили 4 других издания французской книги, по одной на каждый релиз Debian. Роланд Маз, который начинал работать над книго как корректор, превратился в со-автора."
 
 #. Tag: para
 #, no-c-format
 msgid "While we were obviously satisfied with the book's success, we always hoped that Eyrolles would convince an international editor to translate it into English. We had received numerous comments explaining how the book helped people to get started with Debian, and we were keen to have the book benefit more people in the same way."
-msgstr ""
+msgstr "Книга имела несомненный успех и мы всегда надеялись, что Eyrolles убедит международного издателя перевести книгу на английский. Мы получили ряд отзывов, рассказывающих как книга помогла познакомиться с Debian и мы хотели получить книгу, которая сможет помочь большему числу людей тем же способом."
 
 #. Tag: para
 #, no-c-format
 msgid "Alas, no English-speaking editor that we contacted was willing to take the risk of translating and publishing the book. Not put off by this small setback, we decided to negotiate with our French editor Eyrolles to recuperate the necessary rights to translate the book into English and to try to publish it ourselves."
-msgstr ""
+msgstr "Увы, ни один англоязычный издатель, с которым мы связывались не захотел брать риски по переводу и публикации книги. Но мы не опустили руки и решили договориться с французским издательством Eyrolles для получения прав необходимых для перевод книги на английский с последующей публикацией собственными силами."
 
 #. Tag: title
 #, no-c-format
 msgid "A Crowd-Funded Translation"
-msgstr ""
+msgstr "Перевод на народные деньги"
 
 #. Tag: para
 #, no-c-format
 msgid "Translating a book of 450 pages is a considerable effort that requires several months of work. For self-employed people like Roland and me, we had to ensure a minimum income to mobilize the time necessary to complete the project. So we set up a crowd-funding campaign on Ulule and asked people to pledge money towards the project. <ulink type=\"block\" url=\"http://www.ulule.com/debian-handbook/\" />"
-msgstr ""
+msgstr "Перевод 450страничной книги требует значительных усилий и несколькх месяцев работы. Поскольку Роланд и я - простые люди, то мы должны были обеспечить минимальный доход для завершения работы. Поэтому мы открыли кампанию на Ulule и попросили людей финансировать наш проект. <ulink type=\"block\" url=\"http://www.ulule.com/debian-handbook/\" />"
 
 #. Tag: para
 #, no-c-format
 msgid "The campaign had two goals: raising €15,000 for the translation and completing a €25,000 liberation fund to get the resulting book published under a free license — that is, a license that fully follows the Debian Free Software Guidelines."
-msgstr ""
+msgstr "Кампания имела 2 цели: превысить порог в €15,000 для перевода и порог в €25,000 для выпуска перевода под свободной лицензий. Эта лицензия полностью соответствует руководствам по свободному програмному обеспечению Debian."
 
 #. Tag: para
 #, no-c-format
 msgid "When the Ulule campaign ended, the first goal had been achieved with €24,345 raised. The liberation fund was not complete however, with only €14,935 raised. As initially announced, the liberation campaign continued independently from Ulule on the book's official website."
-msgstr ""
+msgstr "Когда кампания на Ulule закончилась была достигнута отметка в €24,345. Однако освобождение не было закончено и остановилось на €14,935. Как было первоначально объявлено, кампания по освобождению продолжилась независимо от Ulule на официальном сайте книги. "
 
 #. Tag: para
 #, no-c-format
 msgid "While we were busy translating the book, donations towards the liberation continued to flow in… And in April 2012, the liberation fund was completed. You can thus benefit from this book under the terms of a free license."
-msgstr ""
+msgstr "Пока мы были заняты переводом, пожертвования на освобождение продолжалось. В апреле 2012 особождение успешно завершилось, поэтому вы можете пользоваться этой книгой под свободной лицензией."
 
 #. Tag: para
 #, no-c-format
 msgid "We would like to thank everybody who contributed to these fundraising campaigns, either by pledging some money or by passing the word around. We couldn't have done it without you."
-msgstr ""
+msgstr "Мы хотели бы поблагодарить каждого, кто принимал участие в этих кампаниях, кто помог с финансированием или советом. Мы бы не смогли сделать этого без вас."
 
 #. Tag: title
 #, no-c-format
 msgid "Supportive Companies and Organizations"
-msgstr ""
+msgstr "Поддержка компаний и организаций"
 
 #. Tag: para
 #, no-c-format
 msgid "We had the pleasure of getting significant contributions from many free software-friendly companies and organizations. Thank you to <ulink url=\"http://www.codelutin.com\">Code Lutin</ulink>, <ulink url=\"http://eof.eu.org\">École Ouverte Francophone</ulink>, <ulink url=\"http://www.evolix.fr\">Evolix</ulink>, <ulink url=\"http://www.fantinibakery.com\">Fantini Bakery</ulink>, <ulink url=\"http://fsffrance.org\">FSF France</ulink>, <ulink url=\"http://www.offensive-security.com\">Offensive Security</ulink> (the company behind <ulink url=\"http://www.backtrack-linux.org\">BackTrack Linux</ulink>), <ulink url=\"http://www.opensides.be\">Opensides</ulink>, <ulink url=\"http://www.proxmox.com\">Proxmox Server Solutions Gmbh</ulink>, SSIELL (Société Solidaire d'Informatique En Logiciels Libres), and <ulink url=\"http://www.syminet.com\">Syminet</ulink>."
-msgstr ""
+msgstr "Мы были обрадованы значительным вкладом многих компаний и организаций дружественных миру свободного программного обеспечения. Спасибо <ulink url=\"http://www.codelutin.com\">Code Lutin</ulink>, <ulink url=\"http://eof.eu.org\">École Ouverte Francophone</ulink>, <ulink url=\"http://www.evolix.fr\">Evolix</ulink>, <ulink url=\"http://www.fantinibakery.com\">Fantini Bakery</ulink>, <ulink url=\"http://fsffrance.org\">FSF France</ulink>, <ulink url=\"http://www.offensive-security.com\">Offensive Security</ulink> (компания, занимающаяся <ulink url=\"http://www.backtrack-linux.org\">BackTrack Linux</ulink>), <ulink url=\"http://www.opensides.be\">Opensides</ulink>, <ulink url=\"http://www.proxmox.com\">Proxmox Server Solutions Gmbh</ulink>, SSIELL (Société Solidaired'Informatique En Logiciels Libres) и <ulink url=\"http://www.syminet.com\">Syminet</ulink>."
 
 #. Tag: para
 #, no-c-format
 msgid "We would also like to thank <ulink url=\"http://www.omgubuntu.co.uk\">OMG! Ubuntu</ulink> and <ulink url=\"http://www.april.org\">April</ulink> for their help in promoting the operation."
-msgstr ""
+msgstr "Мы так же хотим поблагодарить <ulink url=\"http://www.omgubuntu.co.uk\">OMG! Ubuntu</ulink> и <ulink url=\"http://www.april.org\">April</ulink> за их содействие в этом проекте."
 
 #. Tag: title
 #, no-c-format
 msgid "Individual Supporters"
-msgstr ""
+msgstr "Частные меценаты"
 
 #. Tag: para
 #, no-c-format
 msgid "With over 650 supporters in the initial fundraising, and several hundred more in the continued liberation campaign, it is thanks to people like you that this project has been possible. Thank you!"
-msgstr ""
+msgstr "Мы благодарим более 650 сторонников в первоначальном сборе и несколько сотен принявших участие в продолжившейся кампании по освобождению. Без них этот проект не увидел бы свет. Спасибо!"
 
 #. Tag: para
 #, no-c-format
 msgid "We want to address our special thanks to those who contributed at least €35 (sometimes much more!) to the liberation fund. We are glad that there are so many people who share our values about freedom and yet recognize that we deserved a compensation for the work that we have put into this project."
-msgstr ""
+msgstr "Мы хотим выразить отдельную благодарность людяи, пожертвовавшим по меньшей мере €35 (а порой гораздо больше!) за выпуск книги под свободной лицензией. Мы очень рады, что так много людей разделяют наши взгляды на свободу и понимают, что мы заслуживаем компенсацию за наши труды, вложенные в этот проект."
 
 #. Tag: para
 #, no-c-format
 msgid "So thank you Alain Coron, Alain Thabaud, Alan Milnes, Alastair Sherringham, Alban Dumerain, Alessio Spadaro, Alex King, Alexandre Dupas, Ambrose Andrews, Andre Klärner, Andreas Olsson, Andrej Ricnik, Andrew Alderwick, Anselm Lingnau, Antoine Emerit, Armin F. Gnosa, Avétis Kazarian, Bdale Garbee, Benoit Barthelet, Bernard Zijlstra, Carles Guadall Blancafort, Carlos Horowicz — Planisys S.A., Charles Brisset, Charlie Orford, Chris Sykes, Christian Bayle, Christian Leutloff, Christian Maier, Christian Perrier, Christophe Drevet, Christophe Schockaert (R3vLibre), Christopher Allan Webber, Colin Ameigh, Damien Dubédat, Dan Pettersson, Dave Lozier, David Bercot, David James, David Schmitt, David Tran Quang Ty, Elizabeth Young, Fabian Rodriguez, Ferenc Kiraly, Frédéric Perrenot — Intelligence Service 001, Fumihito Yoshida, Gian-Maria Daffré, Gilles Meier, Giorgio Cittadini, Héctor Orón Martínez, Henry, Herbert Kaminski, Hideki Yamane, Hoffmann Information Services GmbH, Holger Burkhardt, Horia Ardelean, Ivo Ugrina, Jan Dittberner, Jim Salter, Johannes Obermüller, Jonas Bofjäll, Jordi Fernandez Moledo, Jorg Willekens, Joshua, Kastrolis Imanta, Keisuke Nakao, Kévin Audebrand, Korbinian Preisler, Kristian Tizzard, Laurent Bruguière, Laurent Hamel, Leurent Sylvain, Loïc Revest, Luca Scarabello, Lukas Bai, Marc Singer, Marcelo Nicolas Manso, Marilyne et Thomas, Mark Janssen — Sig-I/O Automatisering, Mark Sheppard, Mark Symonds, Mathias Bocquet, Matteo Fulgheri, Michael Schaffner, Michele Baldessari, Mike Chaberski, Mike Linksvayer, Minh Ha Duong, Moreau Frédéric, Morphium, Nathael Pajani, Nathan Paul Simons, Nicholas Davidson, Nicola Chiapolini, Ole-Morten, Olivier Mondoloni, Paolo Innocenti, Pascal Cuoq, Patrick Camelin, Per Carlson, Philip Bolting, Philippe Gauthier, Philippe Teuwen, PJ King, Praveen Arimbrathodiyil (j4v4m4n), Ralf Zimmermann, Ray McCarthy, Rich, Rikard Westman, Robert Kosch, Sander Scheepens, Sébastien Picard, Stappers, Stavros Giannouris, Steve-David Marguet, T. Gerigk, Tanguy Ortolo, Thomas Hochstein, Thomas Müller, Thomas Pierson, Tigran Zakoyan, Tobias Gruetzmacher, Tournier Simon, Trans-IP Internet Services, Viktor Ekmark, Vincent Demeester, Vincent van Adrighem, Volker Schlecht, Werner Kuballa, Xavier Neys, and Yazid Cassam Sulliman."
-msgstr ""
+msgstr "Итак, наша особая благодарность следующим людям: Алайн Корон, Алайн Тобод, Алан Мильнс, Алестер Шерингхам, Албан Дамрейн, Алессио Спарадо, Алекс Кинг, Александр Дюпас, Амброс Андрюс, Андре Клярнер, Андреас Олссон, Андрей Рикник, Андрей Альдервик, Ансельм Лигно, Антуан Эмерит, Армин Ф. Гноса, Аветис Казариан, Бдаль Гарби, Бенуа Бартеле, Бернард Жильстра, Карл Годаль Бланкафорт, Карлос Хорович — Planisys S.A., Чарльз Бриссет, Чарли Орфорд, Крис Сайкс, Кристиан Бэйль, Кристиан Лейтлоф, Кристиан Майер, Кристиан Перье, Кристоф Древе, Кристов Шокарт (R3vLibre), Кристофер Аллан Веббер, Колин Ами, Дамьен Дюбеда, Дэн Петтерсон, Дэйв Лозьер, Дэвид Беркот, Дэвид Джеймс, Дэвид Шмит, Дэвид Тран Куанг Тай, Элизабет Янг, Фабьен Родригез, Ферекн Киралай, Фредерик Перрено — Intelligence Service 001, Фумито Йошида, Жан-Мариа Даффре, Жиль Майер, Жоржио Читтадини, Гектор Орон Мартинез, Генри, Гербрерт Камински, Хидеки Яман, Hoffmann Information Services GmbH, Хольгер Брукхарт, Хориа Арделин, Иво Угрина, Жан Диттебернер, Джим Сальтер, Йоханнес Обермюллер, Йонас Боржал, Жорди Фернандес Моледо, Йорг Виллекенс, Йошуа, Кастроллис Иманта, Кейсуке Накао, Кевин Одебранд, Корбиниан Прейслер, Кристиан Тиззард, Лорен Брюжер, Лорен Хамель, Лорен Сильвиан, Луик Ревест, Лука Скарабелло, Лукас Бай, Марк Сингер, Марчело Николас Мансо, Мэрилин Томас, Марк Йансен — Sig-I/O Automatisering, Марк Шеппард, Марк Саймондс, Матиас Боке, Матео Фальгери, Майкл Шаффнер, Мишель Болдессари, Майк Чаберски, Майк Линксвайер, Мин Ха Дон, Моро Фредерис, Морфиум, Натаел Пажани, Натан Пол Саймонс, Николя Давидсон, Николя Чиаполини, Оле-Мортен, Оливьер Мондолони, Паоло Иннокенти, Паскаль Сиок, Патрик Камелин, Пер Карлсон, Филип Болтинг, Филиппе Готьер, Филиппе Тейвень, ПЖ Кинг, Правин Арибратодил (j4v4m4n), Ральф Зимерман, Рэй Маккарти, Рикh, Рикард Вестман, Роберт Коч, Сандер Шипенс, Себастьян Пикард, Стапперс, Ставрос Гинорис, Стив-Дэйвид Марго, Т. Грижк, Тангу Ортоло, Томас Хочстейн, Томас Мюллер, Томас Пирсон, Тигран Закоян, Тоби Грютмахер, Турне Симонn, Trans-IP Internet Services, Виктор Экмарк, Винсент Демистер, Винсент ван Адригем, Волкер Члехт, Вернер Кубалла, Ксавьер Нис и Язид Гассам Сулейман."
 
 #. Tag: title
 #, no-c-format
 msgid "Special Thanks to Contributors"
-msgstr ""
+msgstr "Особая благодарность участникам"
 
 #. Tag: para
 #, no-c-format
 msgid "This book would not be what it is without the contributions of several persons who each played an important role. We would like to thank Marilyne Brun, who helped us to translate the sample chapter and who worked with us to define some common translation rules. She also revised several chapters which were desperately in need of supplementary work. Thank you to Anthony Baldwin (of Baldwin Linguas) who translated several chapters for us."
-msgstr ""
+msgstr "Эта книга не была бы именно такой без участия нескольких участников, каждый из которых играл очень важную роль. Мы хотели бы поблагодарить Мэрилин Брун, которая помогала переводить выборочные разделы и работа над определением общих правил перевода. Она так же переработала несколько глав, которы нуждались в срьёзной "
 
 #. Tag: para
 #, no-c-format
 msgid "We benefited from the generous help of proofreaders: Daniel Phillips, Gerold Rupprecht, Gordon Dey, Jacob Owens, and Tom Syroid. They each reviewed many chapters. Thank you very much!"
-msgstr ""
+msgstr "Мы так же благодарны нашим корректорам: Дэниел Филлипс, Гаролдь Рупрехт, Гордон Дэй, Якоб Оуенс и Том Сиройд. Каждый из них рецензировал множество глав."
 
 #. Tag: para
 #, no-c-format
 msgid "If you have the pleasure to read these lines in a paperback copy of the book, then you should join us to thank Benoît Guillon, Jean-Côme Charpentier, and Sébastien Mengin who worked on the interior book design. Benoît is the upstream author of <ulink url=\"http://dblatex.sourceforge.net\">dblatex</ulink> — the tool we used to convert DocBook into LaTeX (and then PDF). Sébastien is the designer who created this nice book layout and Jean-Côme is the LaTeX expert who implemented it as a stylesheet usable with dblatex. Thank you guys for all the hard work!"
-msgstr ""
+msgstr "Если вы читаете эти строки на бумажной копии книги, то вам стоит поблагодарить Бенуа Гильона, Жан-Ком Шарпентьера и Себастьяна Менгина. Они работали над дизайном книги. Бенуа так же является автором <ulink url=\"http://dblatex.sourceforge.net\">dblatex</ulink> (утилита для конвертирования DocBook в LaTeX (а затме в PDF). Себастьян сверстал книгу, а Жан-Ком - эксперт LaTeX, разработал стили совместимые с dblatex. Спасибо за вас тяжёлый труд!"
 
 #. Tag: para
 #, no-c-format
 msgid "Finally, thank you to Thierry Stempfel for the nice pictures introducing each chapter, and thank you to Doru Patrascu for the beautiful book cover."
-msgstr ""
+msgstr "Ну и наконец мы хотели бы поблагодарить Тьери Стампфеля за прекрасные изображения перед началом каждой главы и Дору Патраску за великолепную обложку книги."
 
 #. Tag: title
 #, no-c-format
 msgid "Personal Acknowledgments from Raphaël"
-msgstr ""
+msgstr "Персональные благодарности от Рафаэля"
 
 #. Tag: para
 #, no-c-format
 msgid "First off, I would like to thank Nat Makarevitch, who offered me the possibility to write this book and who provided strong guidance during the year it took to get it done. Thank you also to the fine team at Eyrolles, and Muriel Shan Sei Fan in particular. She has been very patient with me and I learned a lot with her."
-msgstr ""
+msgstr "Прежде всего я бы хотел поблагодарить Нат Макаревич, кто предоставил мне возможно написать эту книгу и кто руководил проектом в течении всей работы. Спасибо отличной команде Eyrolles и Мюрей Шан Сей Фан в частности. Она всегда была очень терпеливой со мной и я многому у ней научилася."
 
 #. Tag: para
 #, no-c-format
 msgid "The period of the Ulule campaign was very demanding for me but I would like to thank everybody who helped to make it a success, and in particular the Ulule team who reacted very quickly to my many requests. Thank you also to everybody who promoted the operation. I don't have any exhaustive list (and if I had it would probably be too long) but I would like to thank a few people who were in touch with me: Joey-Elijah Sneddon and Benjamin Humphrey of OMG! Ubuntu, Frédéric Couchet of April.org, Jake Edge of Linux Weekly News, Clement Lefebvre of Linux Mint, Ladislav Bodnar of Distrowatch, Steve Kemp of Debian-Administration.org, Christian Pfeiffer Jensen of Debian-News.net, Artem Nosulchik of LinuxScrew.com, Stephan Ramoin of Gandi.net, Matthew Bloch of Bytemark.co.uk, the team at Divergence FM, Rikki Kite of Linux New Media, Jono Bacon, the marketing team at Eyrolles, and numerous others that I have forgotten (sorry about that)."
-msgstr ""
+msgstr "Кампания на Ulule была крайне необходима и я хочу поблагодарить всех, кто помог прийти нам к успеху и особенно команду Ulule, которая очень оперативно откликались на множество моих обращений. Так же я хочу выразить благодарность всем, кто помогал в этом проекте. У меня нет полного списка людей (а если бы и был, то он был бы невероятно длинным), но я хочу поблагодарить нескольких людей, которые были со мной: Джоуи-Элийя Снеддон и Бенжамин Намфри из OMG! Ubuntu, Фредерик Кочет из  April.org, Жак Идж из Linux Weekly News, Клемент Лефёбвр из Linux Mint, Ладислав Боднарь из Distrowatch, Стив Кемп из Debian-Administration.org, Кристиан Пфейфер Йенсен из Debian-News.net, Артём Носульчик из LinuxScrew.com, Стефан Рамон из Gandi.net, Мэттью Блох из Bytemark.co. uk, команду Divergence FM, Рикки Кайт из Linux New Media, Джоно Бэёкон, рекламный отдел Eyrolles и всех остальных, кого я забыл (прошу прощения за это)."
 
 #. Tag: para
 #, no-c-format
 msgid "I would like to address a special thanks to Roland Mas, my co-author. We have been collaborating on this book since the start and he has always been up to the challenge. And I must say that completing the Debian Administrator's Handbook has been a lot of work…"
-msgstr ""
+msgstr "Ещё я хотел бы выразить особую благодарность Роланду Масу, моему соавтору. Мы работали вместе над этой книгой с самого начала и он всегда был в курсе всех событий. И я должен сказать, что для написания Настольной книги администратора Debian было приложено немало усилий."
 
 #. Tag: para
 #, no-c-format
 msgid "Last but not least, thank you to my wife, Sophie. She has been very supportive of my work on this book and on Debian in general. There have been too many days (and nights) when I left her alone with our 2-year-old son to make some progress on the book. I am grateful for her support and know how lucky I am to have her."
-msgstr ""
+msgstr "Последнее, но не менее важное: спасибо моей жене Софи. Она очень поддерживала меня в период работы над книгой и вообще в работе с прокетом Debian. Было слишком много дней (и ночей), когда мне приходилось оставлять её одну с двухлетним сыном, чтобы немного поработать над книгой. Я очень признателен за поддержку и я счастлив, что она есть у меня."
 
 #. Tag: title
 #, no-c-format
 msgid "Personal Acknowledgments from Roland"
-msgstr ""
+msgstr "Персональные благодарности от Роланда"
 
 #. Tag: para
 #, no-c-format
 msgid "Well, Raphaël preempted most of my “external” thank-yous already. I am still going to emphasize my personal gratitude to the good folks at Eyrolles, with whom collaboration has always been pleasant and smooth. Hopefully the results of their excellent advice hasn't been lost in translation."
-msgstr ""
+msgstr "Рафаэль уже успел поблагодарить многих людей с которыми работал и я. Но я всё же выражу мою персональную благодарность замечательным людям из Eyrolles, сотрудничать с которыми всегда очень приятно. Надеюсь их ценные советы не потеряются в процессе перевода."
 
 #. Tag: para
 #, no-c-format
 msgid "I am extremely grateful to Raphaël for taking on the administrative part of this English edition. From organizing the funding campaign to the last details of the book layout, producing a translated book is so much more than just translating and proofreading, and Raphaël did (or delegated and supervised) it all. So thanks."
-msgstr ""
+msgstr "Я безмерно благодарен Рафаэлю за принятие управленчиских обязанностей английского издания на себя. Всё, от организации сбора денег до вопросов вёрстки, выпуска перевод и множество других вопросов за рамками непосредственно перевода и корректировки делал Рафаэль. Спасибо!"
 
 #. Tag: para
 #, no-c-format
 msgid "Thanks also to all who more or less directly contributed to this book, by providing clarifications or explanations, or translating advice. They are too many to mention, but most of them can usually be found on various #debian-* IRC channels."
-msgstr ""
+msgstr "Спасибо всем, кто в большей или меньшей степени помога в работе над книгой пояснением, объяснением или советом по переводу. Их очень много, но большинство из них можно найти на различных IRC каналах #debian-*"
 
 #. Tag: para
 #, no-c-format
 msgid "There is of course some overlap with the previous set of people, but specific thanks are still in order for the people who actually do Debian. There wouldn't be much of a book without them, and I am still amazed at what the Debian project as a whole produces and makes available to any and all."
-msgstr ""
+msgstr "Конечно среди следующих людей есть уже упомянутые ранее, но особая благодарность людям который разрабатывают Debian. Без них не было бы этой книги и я до сих пор изумляюсь как проект Debian разрабатывается и доступен всем и каждому."
 
 #. Tag: para
 #, no-c-format
 msgid "More personal thanks go to my friends and my clients, for their understanding when I was less responsive because I was working on this book, and also for their constant support, encouragement and egging on. You know who you are; thanks."
-msgstr ""
+msgstr "Так же особую благодарность я выражаю всем моим друзьям и клиентам, которые понимали, что я серьёзно загружен из-за работы над книгой, за их поддержку и воодушевления. Вы сами знаете что это вы. Спасибо!"
 
 #. Tag: para
 #, no-c-format
 msgid "And finally; I am sure they would be surprised by being mentioned here, but I would like to extend my gratitude to Terry Pratchett, Jasper Fforde, Tom Holt, William Gibson, Neal Stephenson, and of course the late Douglas Adams. The countless hours I spent enjoying their books are directly responsible for my being able to take part in translating this one."
-msgstr ""
+msgstr "И в заключении, я бы хотел поблагодарить Терри Пратчета, Джаспера Ффорда, Тома Хольта, Вильма Гибсона, Нила Стивенсона и, конечно же, Дугласа Адамса, хотя они и очень удивятся, увидев свои имена здесь. Те бесчисленные часы, которые я провёл щза чтением их книг дали мне возможность принять участие в этом переводе. "
 
