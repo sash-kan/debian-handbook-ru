@@ -36,7 +36,7 @@ msgstr "Производные дистрибутивы"
 #. Tag: para
 #, no-c-format
 msgid "<indexterm><primary>derivative distribution</primary></indexterm> <indexterm><primary>distribution, derivative</primary></indexterm> Many Linux distributions are derivatives of Debian and reuse Debian's package management tools. They all have their own interesting properties, and it is possible one of them will fulfill your needs better than Debian itself."
-msgstr "<indexterm><primary>производные дистрибутивы</primary></indexterm> <indexterm><primary>дистрибутивы, производные</primary></indexterm> Многие дистрибутивы Linux происходят от Debian и используют дебиановскую систему управления пакетами. Все они обладают собственными особенностями и, возможно, один из них будет подходить вам гораздо больше, нежели сам Debian."
+msgstr "<indexterm><primary>производные дистрибутивы</primary></indexterm> <indexterm><primary>дистрибутивы, производные</primary></indexterm> Многие дистрибутивы Linux происходят от Debian и используют дебиановскую систему управления пакетами. Все они обладают собственными особенностями, и, возможно, один из них будет подходить вам гораздо больше, нежели сам Debian."
 
 #. Tag: title
 #, no-c-format
@@ -46,12 +46,12 @@ msgstr "Перепись и сотрудничество"
 #. Tag: para
 #, no-c-format
 msgid "The Debian project fully acknowledges the importance of derivative distributions and actively supports collaboration between all involved parties. This usually involves merging back the improvements initially developed by derivative distributions so that everyone can benefit and long-term maintenance work is reduced."
-msgstr "Проект Debian осознаёт важность произвожных дистрибутивов и активно сотрудничает с ними. Это проявляется в объединении улучшений, изначально разработанных производными дистрибутивами, таким образом снижая издержки на поддержку."
+msgstr "Проект Debian осознаёт важность производных дистрибутивов и активно сотрудничает с ними. Это проявляется в объединении улучшений, изначально разработанных производными дистрибутивами. Таким образом снижаются издержки на поддержку."
 
 #. Tag: para
 #, no-c-format
 msgid "This explains why derivative distributions are invited to become involved in discussions on the <literal>debian-derivatives@lists.debian.org</literal> mailing-list, and to participate in the derivative census. This census aims at collecting information on work happening in a derivative so that official Debian maintainers can better track the state of their package in Debian variants. <ulink type=\"block\" url=\"http://wiki.debian.org/DerivativesFrontDesk\" /><ulink type=\"block\" url=\"http://wiki.debian.org/Derivatives/Census\" />"
-msgstr "Это объясняет почем производные дистрибутивы приглашаются для участи в почтовой рассылке <literal>debian-derivatives@lists.debian.org</literal> и учавствуют в переписи производных дистрибутивов. Перепись предназначена собрать информацию о работах, проходящих в производных дистрибутивах, чтобы мейнтйнеры Debian могли следить за состоянием своих пакетов в производных Debian."
+msgstr "Это объясняет почему производные дистрибутивы приглашаются для участия в почтовой рассылке <literal>debian-derivatives@lists.debian.org</literal> и участвуют в переписи производных дистрибутивов. Перепись предназначена собрать информацию о работах, проходящих в производных дистрибутивах, чтобы мейнтйнеры Debian могли следить за состоянием своих пакетов в производных Debian."
 
 #. Tag: para
 #, no-c-format
@@ -66,27 +66,27 @@ msgstr "Ubuntu"
 #. Tag: para
 #, no-c-format
 msgid "<indexterm><primary>Ubuntu</primary></indexterm> Ubuntu made quite a splash when it came on the Free Software scene, and for good reason: Canonical Ltd., the company that created this distribution, started by hiring thirty-odd Debian developers and publicly stating the far-reaching objective of providing a distribution for the general public with a new release twice a year. They also committed to maintaining each version for a year and a half for both core and security-related components."
-msgstr "<indexterm><primary>Ubuntu</primary></indexterm> Ubuntu ярко появилась на сцене свободного программного обеспечения и этому есть причина: Canonical Ltd., компания, создавшая дистрибутив, наняла более 30 разработчиков Debian и публично заявили о своих целях выпускать релиз для общественности два раза в год. Они так же поддерживали каждую версию полтора года по общим вопросам и вопросам безопасности."
+msgstr "<indexterm><primary>Ubuntu</primary></indexterm> Ubuntu ярко появился на сцене свободного программного обеспечения и этому есть причина: Canonical Ltd., компания, создавшая дистрибутив, наняла более 30 разработчиков Debian и публично заявила о своих целях выпускать релиз для общественности два раза в год. Они так же поддерживали каждую версию полтора года по общим вопросам и вопросам безопасности."
 
 #. Tag: para
 #, no-c-format
 msgid "These objectives necessarily involve a reduction in scope; Ubuntu focuses on a smaller number of packages than Debian, and relies primarily on the GNOME desktop (although an official Ubuntu derivative, called “Kubuntu”<indexterm><primary>Kubuntu</primary></indexterm>, relies on KDE). Everything is internationalized and made available in a great many languages."
-msgstr "Эти положения вынуждают сокращать сферу работы: Ubuntu сосредоточено вокруг меньшего числа пакетов, нежели Debian и зависит только от окружения GNOME (однако есть производный дистрибутив от Ubuntu - “Kubuntu”<indexterm><primary>Kubuntu</primary></indexterm>, который зависит от KDE). Дистрибутив интернационализирован и доступен на многих языках."
+msgstr "Эти положения вынуждают сокращать сферу работы: Ubuntu сосредоточен вокруг меньшего числа пакетов, нежели Debian, и зависит только от окружения GNOME (однако есть производный дистрибутив от Ubuntu - “Kubuntu”<indexterm><primary>Kubuntu</primary></indexterm>, который зависит от KDE). Дистрибутив интернационализирован и доступен на многих языках."
 
 #. Tag: para
 #, no-c-format
 msgid "So far, Ubuntu has managed to keep this release rhythm. They also publish <emphasis>Long Term Support</emphasis> (LTS) releases, with a 5-year maintenance promise. As of April 2012, the current LTS version is version 12.04, nicknamed Precise Pangolin. The latest non-LTS version is 11.10, nicknamed Oneiric Ocelot. Version numbers describe the release date: 11.10, for example, was released in October 2011."
-msgstr "До сих пор Ubuntu удаётся сохранить такую периодичность релизов. Так же есть релизы <emphasis>Long Term Support</emphasis> (LTS) (релиз расширенной поддержки) с 5летним периодом поддержки.В апреле 2012 текущий LTS релиз - 12.04 с кодовым именем Precise Pangolin. Последняя не-LTS версия 11.10 с кодовым именем Oneiric Ocelot. Номера версий привязаны к дате релиза: 11.10 означает, что версия выбущена в октябре 2011."
+msgstr "До сих пор Ubuntu удаётся сохранить такую периодичность релизов. Так же есть релизы <emphasis>Long Term Support</emphasis> (LTS) (релиз расширенной поддержки) с 5летним периодом поддержки. В апреле 2012 текущий LTS релиз - 12.04 с кодовым именем Precise Pangolin. Последняя не-LTS версия 11.10 с кодовым именем Oneiric Ocelot. Номера версий привязаны к дате релиза: 11.10 означает, что версия выпущена в октябре 2011."
 
 #. Tag: para
 #, no-c-format
 msgid "Ubuntu has reached a wide audience in the general public. Millions of users were impressed by its ease of installation, and the work that went into making the desktop simpler to use."
-msgstr "Ubuntu завоевало широкую аудиторию. Миллионы пользователей были поражены простотой установки и простотой испольозвания рабочего окружения в работе."
+msgstr "Ubuntu завоевало широкую аудиторию. Миллионы пользователей были поражены простотой установки и простотой использования рабочего окружения в работе."
 
 #. Tag: para
 #, no-c-format
 msgid "However, not everything is fine and dandy, especially for Debian developers who placed great hopes in Ubuntu contributing directly to Debian. Even though this situation has improved over the years, many have been irked by the Canonical marketing, which implied Ubuntu were good citizens in the Free Software world simply because they made public the changes they applied to Debian packages. Free Software proponents understand that an automatically-generated patch is of little use to the upstream contribution process. Getting one's work integrated requires direct interaction with the other party."
-msgstr "Однако не всё прекрасно в датском королевстве, особенно для разработчиков Debian, которые возлагали большие надежды на то, что Ubuntu будет вносить свой вклад в Debian. Хотя ситуация улучшилась в последние годы, многие были раздражены маркетологами из Canonical, которые представляли Ubuntu как примерных граждан в мире свободного программного обеспечения только потому что публично вносили изменения в пакеты Debian. Сторонники свободного программного обеспечения понимают, что автоматически сгенерированные патчи лишь малая часть процесса разработки. Работа по интеграции требует прямого взаимодействия с другой стороной."
+msgstr "Однако не всё прекрасно в датском королевстве, особенно для разработчиков Debian, которые возлагали большие надежды на то, что Ubuntu будет вносить свой вклад в Debian. Хотя ситуация улучшилась в последние годы, многие были раздражены маркетологами из Canonical, которые представляли Ubuntu, как образцового гражданина в мире свободного программного обеспечения только потому, что публично вносили изменения в пакеты Debian. Сторонники свободного программного обеспечения понимают, что автоматически сгенерированные патчи лишь малая часть процесса разработки. Работа по интеграции требует прямого взаимодействия с другой стороной."
 
 #. Tag: para
 #, no-c-format
