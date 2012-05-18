@@ -31,12 +31,12 @@ msgstr "<emphasis>К ОСНОВАМ</emphasis> Распространение Li
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Linux</primary><secondary>kernel</secondary>"
-msgstr "<secondary>Ядро</secondary><primary>Linux</primary>"
+msgstr "<primary>Ядро</primary><secondary>Linux</secondary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Linux</primary><secondary>distribution</secondary>"
-msgstr "<secondary>дистрибутив</secondary><primary>Linux</primary>"
+msgstr "<primary>дистрибутив</primary><secondary>Linux</secondary>"
 
 #. Tag: indexterm
 #, no-c-format
