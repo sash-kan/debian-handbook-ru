@@ -51,7 +51,7 @@ msgstr "Краткий курс"
 #. Tag: para
 #, no-c-format
 msgid "Even though this book primarily targets administrators and “power-users”, we wouldn't like to exclude motivated beginners. This appendix will therefore be a crash-course describing the fundamental concepts involved in handling a Unix computer."
-msgstr "Хотя эта книга в большей степени ориентирована на администраторов и продвинутых пользователей, мы не будем отнимать шанс у новичков. В этом приложении представлен ускоренный курс по базовым вещам в мире Unix."
+msgstr "Хотя эта книга в большей степени ориентирована на администраторов и продвинутых пользователей, мы не будем отнимать шанс во всём разобраться у новичков. В этом приложении представлен ускоренный курс по базовым вещам в мире Unix."
 
 #. Tag: title
 #, no-c-format
@@ -81,7 +81,7 @@ msgstr "Эта секция рассказывает только про сам�
 #. Tag: title
 #, no-c-format
 msgid "Browsing the Directory Tree and Managing Files"
-msgstr "Просмотре дереве директорий и управление файлами"
+msgstr "Просмотр дерева директорий и управление файлами"
 
 #. Tag: para
 #, no-c-format
@@ -128,7 +128,7 @@ msgstr ""
 #. Tag: para
 #, no-c-format
 msgid "A new directory can be created with <command>mkdir <replaceable>directory</replaceable></command>, and an existing (empty) directory can be removed with <command>rmdir <replaceable>directory</replaceable></command>. The <command>mv</command> command allows <emphasis>moving</emphasis> and/or renaming files and directories; <emphasis>removing</emphasis> a file involves <command>rm <replaceable>file</replaceable></command>."
-msgstr "Создать новую директорию можно командой <command>mkdir <replaceable>directory</replaceable></command>, а удалить существующую (пустую) директорию можно командой <command>rmdir <replaceable>directory</replaceable></command>. Команда <command>mv</command> позволяет <emphasis>перемещать</emphasis> и/или переименовывать файоы и директории. Удалить же файл можно командой <command>rm <replaceable>file</replaceable></command>."
+msgstr "Создать новую директорию можно командой <command>mkdir <replaceable>directory</replaceable></command>, а удалить существующую (пустую) директорию можно командой <command>rmdir <replaceable>directory</replaceable></command>. Команда <command>mv</command> позволяет <emphasis>перемещать</emphasis> и/или переименовывать файлы и директории. Удалить же файл можно командой <command>rm <replaceable>file</replaceable></command>."
 
 #. Tag: screen
 #, no-c-format
@@ -201,7 +201,7 @@ msgstr "Управление процессами"
 #. Tag: para
 #, no-c-format
 msgid "The <command>ps aux</command> command lists the processes currently running and allows identifying them by their <emphasis>pid</emphasis> (process id). Once the <emphasis>pid</emphasis> of a process is known, the <command>kill -<replaceable>signal</replaceable> <replaceable>pid</replaceable></command> command allows sending it a signal (if the process belongs to the current user). Several signals exist; most commonly used are <literal>TERM</literal> (a request to terminate) and <literal>KILL</literal> (a heavy-handed kill)."
-msgstr "Команда <command>ps aux</command> выводит список запущенных процессов, и так же отображает <emphasis>pid</emphasis> (process id = идентификатор процесса). Если известен <emphasis>pid</emphasis> процесса, то с помощью команды <command>kill -<replaceable>signal</replaceable> <replaceable>pid</replaceable></command> ему можно послать сигнал, при условии, что процесс принадлежит текущему пользователю. Существует несколько различных сигналов. Наиболее часто используемые <literal>TERM</literal> (сигнал на завершение работы) и <literal>KILL</literal> (немедленное завершение работы)."
+msgstr "Команда <command>ps aux</command> выводит список запущенных процессов и также отображает <emphasis>pid</emphasis> (process id = идентификатор процесса). Если известен <emphasis>pid</emphasis> процесса, то с помощью команды <command>kill -<replaceable>signal</replaceable> <replaceable>pid</replaceable></command> ему можно послать сигнал, при условии, что процесс принадлежит текущему пользователю. Существует несколько различных сигналов. Наиболее часто используемые <literal>TERM</literal> (сигнал на завершение работы) и <literal>KILL</literal> (немедленное завершение работы)."
 
 #. Tag: para
 #, no-c-format
@@ -216,7 +216,7 @@ msgstr "Системная информация: память, дисковой 
 #. Tag: para
 #, no-c-format
 msgid "The <command>free</command> command displays information on memory; <command>df</command> (<emphasis>disk free</emphasis>) reports on the available disk space on each of the disks mounted in the filesystem. Its <literal>-h</literal> option (for <emphasis>human readable</emphasis>) converts the sizes into a more legible unit (usually megabytes or gigabytes). In a similar fashion, the <command>free</command> command understands the <literal>-m</literal> and <literal>-g</literal> options, and displays its data either in megabytes or in gigabytes, respectively."
-msgstr "Команда <command>free</command> показывает информацию о памяти. Команда <command>df</command> (<emphasis>disk free</emphasis> = <emphasis>свободное пространство</emphasis>) показывает доступное место на каждом из примонтированных дисков. Опция <literal>-h</literal> (от <emphasis>human readable</emphasis> = <emphasis>удобочитаемый</emphasis>) переводит величины в более удобные единицы измерения (обычно мегабайты или гигабайты). Точно так же команда <command>free</command> понимает опции <literal>-m</literal> и <literal>-g</literal> и показывает величины в мегабайтах и гигабайтах соотвественно."
+msgstr "Команда <command>free</command> показывает информацию о памяти. Команда <command>df</command> (<emphasis>disk free</emphasis> = <emphasis>свободное пространство</emphasis>) показывает доступное место на каждом из примонтированных дисков. Опция <literal>-h</literal> (от <emphasis>human readable</emphasis> = <emphasis>удобочитаемый</emphasis>) переводит величины в более удобные единицы измерения (обычно мегабайты или гигабайты). Точно так же команда <command>free</command> понимает опции <literal>-m</literal> и <literal>-g</literal> и показывает величины в мегабайтах и гигабайтах соответственно."
 
 #. Tag: screen
 #, no-c-format
@@ -256,7 +256,7 @@ msgstr ""
 #. Tag: para
 #, no-c-format
 msgid "The <command>id</command> command displays the identity of the user running the session, along with the list of groups they belong to. Since access to some files or devices may be limited to group members, checking available group membership may be useful."
-msgstr "Команда <command>id</command> показывает идентификатор текущего пользователя, а так же список групп, в которых состоит пользователь. Посколько порой присутствуют ограничения для членов групп на доступ к файлам или устройствам, эта информация может быть очень полезна."
+msgstr "Команда <command>id</command> показывает идентификатор текущего пользователя, а так же список групп, в которых он состоит. Посколько порой присутствуют ограничения для членов групп на доступ к файлам или устройствам, эта информация может оказаться очень полезной."
 
 #. Tag: screen
 #, no-c-format
@@ -289,7 +289,7 @@ msgstr "Корневая директория"
 #. Tag: para
 #, no-c-format
 msgid "A Debian system is organized along the <emphasis>File Hierarchy Standard</emphasis> (FHS). This standard defines the purpose of each directory. For instance, the top-level directories are described as follows:"
-msgstr "Debian следует стандарту <emphasis>File Hierarchy Standard</emphasis> (FHS). Этот стандарт определяет цели для каждой директории. Директории верхнего уровня делятся следующим образом:"
+msgstr "Debian следует стандарту <emphasis>File Hierarchy Standard</emphasis> (FHS). Этот стандарт определяет назначение каждой директории. Директории верхнего уровня делятся следующим образом:"
 
 #. Tag: para
 #, no-c-format
@@ -379,87 +379,87 @@ msgstr "Домашняя директории пользователя"
 #. Tag: para
 #, no-c-format
 msgid "The contents of a user's home directory is not standardized, but there are still a few noteworthy conventions. One is that a user's home directory is often referred to by a tilde (“~”). That is useful to know because command interpreters automatically replace a tilde with the correct directory (usually <filename>/home/<replaceable>user</replaceable>/</filename>)."
-msgstr "Содержимой домашней директории пользователя не стандартизовано, но существуют некоторые условные соглашения. Одно из них - домашняя директория часто откликается на тильду (“~”). Это удобно, т.к. командная оболочка автоматически заменяет тильду на правильный адрес (обычно <filename>/home/<replaceable>user</replaceable>/</filename>)."
+msgstr "Содержимой домашней директории пользователя не стандартизовано, но существуют некоторые условные соглашения. Одно из них - домашняя директория часто на неё ссылается тильда (“~”). Это удобно, т.к. командная оболочка автоматически заменяет тильду на правильный адрес (обычно <filename>/home/<replaceable>user</replaceable>/</filename>)."
 
 #. Tag: para
 #, no-c-format
 msgid "Application configuration files are often stored directly under the user's home directory, but their names usually start with a dot (for instance, the <command>mutt</command> email client stores its configuration in <filename>~/.muttrc</filename>). Filenames that start with a dot are hidden by default, and <command>ls</command> only lists them when the <literal>-a</literal> option is used."
-msgstr ""
+msgstr "Часто в домашней директории пользователя хранятся конфигурационные файлы приложений, но их имена обычно начинаются с точки (например, почтовый клиент <command>mutt</command> хранит свои настройки в <filename>~/.muttrc</filename>). Файлы, начинающиеся с точки по умолчанию скрыты, и команда <command>ls</command> показывает их только если используется опция <literal>-a</literal>."
 
 #. Tag: para
 #, no-c-format
 msgid "Some programs use multiple configuration files organized in one directory (for instance, <filename>~/.evolution/</filename>). Some applications (such as the Iceweasel web browser) also use their directory to store a cache of downloaded data. This means that those directories can end up using a lot of disk space."
-msgstr ""
+msgstr "Некоторые программы используют целый набор конфигурационных файлов и хранит их в определённой директории (например, <filename>~/.evolution/</filename>). Часть из них (такие как веб-браузер Iceweasel) использует свои директории для хранения кэша загружаемых данных. Это модет привести к тому, что эти директории будут занимать очень много места на диске."
 
 #. Tag: para
 #, no-c-format
 msgid "Graphical desktops usually display the contents of the <filename>~/Desktop/</filename> directory (or <filename>~/Bureau/</filename> or whatever the appropriate translation is for systems not configured in English) on the desktop (ie, what's visible on screen once all applications are closed or iconized)."
-msgstr ""
+msgstr "Графическое окружение обычно отображает на рабочем столе (то, что видно на экране когда все приложения закрыты или свёрнуты) содержимое директории <filename>~/Desktop/</filename> (или <filename>~/Bureau/</filename> или другой вариант перевода в зависимости от настроек системы)."
 
 #. Tag: para
 #, no-c-format
 msgid "Finally, the email system sometimes stores incoming emails into a <filename>~/Mail/</filename> directory."
-msgstr ""
+msgstr "А почтовая система иногда складывает входящие письма в директорию <filename>~/Mail/</filename>."
 
 #. Tag: title
 #, no-c-format
 msgid "Inner Workings of a Computer: the Different Layers Involved"
-msgstr ""
+msgstr "Внутренние механизмы компьютера: различные задействованные уровни"
 
 #. Tag: para
 #, no-c-format
 msgid "A computer is often considered as something rather abstract, and the externally visible interface is much simpler than its internal complexity. Such complexity comes in part from the number of pieces involved. However, these pieces can be viewed in layers, where a layer only interacts with those immediately above or below."
-msgstr ""
+msgstr "Часто компьютер рассматривают как нечто абстрактное, и видимый интерфейс выглядит гораздо проще, нежели внутренние процессы. Различные сложности возникают из-за большого количества участвующих деталей. Однако эти детали можно распределить на разные уровни, где каждый уровень непосредственно взаимодействует только с одним уровнем выше и одним уровнем ниже. "
 
 #. Tag: para
 #, no-c-format
 msgid "An end-user can get by without knowing these details… as long as everything works. When confronting a problem such as, “The internet doesn't work!”, the first thing to do is to identify in which layer the problem originates. Is the network card (hardware) working? Is it recognized by the computer? Does the Linux kernel see it? Are the network parameters properly configured? All these questions isolate an appropriate layer and focus on a potential source of the problem."
-msgstr ""
+msgstr "Конечный пользователь спокойно может жить без этих подробностей... до тех пор пока всё работает. Когда встречаешься с проблемой “Интернет не работает!” в первую очередь пытаешься определить причину проблемы. Работает ли сетевая карточка? Определяется ли она компьютером? Видит ли её ядро Linux? Верно ли сконфигурированы сетевые параметры? Все эти вопросы определяют различные уровни проблем друг от друга и определяют возможную причину неполадки."
 
 #. Tag: title
 #, no-c-format
 msgid "The Deepest Layer: the Hardware"
-msgstr ""
+msgstr "Низший уровень: железо"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>IDE</primary>"
-msgstr ""
+msgstr "<primary>IDE</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>SCSI</primary>"
-msgstr ""
+msgstr "<primary>SCSI</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Serial ATA</primary>"
-msgstr ""
+msgstr "<primary>Serial ATA</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Parallel ATA</primary>"
-msgstr ""
+msgstr "<primary>Parallel ATA</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>ATA</primary>"
-msgstr ""
+msgstr "<primary>ATA</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>IEEE 1394</primary>"
-msgstr ""
+msgstr "<primary>IEEE 1394</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Firewire</primary>"
-msgstr ""
+msgstr "<primary>Firewire</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>USB</primary>"
-msgstr ""
+msgstr "<primary>USB</primary>"
 
 #. Tag: para
 #, no-c-format
