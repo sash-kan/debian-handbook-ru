@@ -1,4 +1,4 @@
-# 
+#
 # AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
@@ -8,6 +8,7 @@ msgstr ""
 "PO-Revision-Date: 2012-05-09T20:00:22\n"
 "Last-Translator: sledopit i@irush.su\n"
 "Language-Team: None\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -89,7 +90,8 @@ msgstr "Как только сессия начата, команда <command>p
 
 #. Tag: screen
 #, no-c-format
-msgid "\n"
+msgid ""
+"\n"
 "<computeroutput>$ </computeroutput><userinput>pwd</userinput>\n"
 "<computeroutput>/home/rhertzog\n"
 "$ </computeroutput><userinput>cd Desktop</userinput>\n"
@@ -105,7 +107,8 @@ msgid "\n"
 "<computeroutput>Desktop    Downloads  Pictures  Templates\n"
 "Documents  Music      Public    Videos</computeroutput>\n"
 "      "
-msgstr "\n"
+msgstr ""
+"\n"
 "<computeroutput>$ </computeroutput><userinput>pwd</userinput>\n"
 "<computeroutput>/home/rhertzog\n"
 "$ </computeroutput><userinput>cd Desktop</userinput>\n"
@@ -129,7 +132,8 @@ msgstr "Создать новую директорию можно командо
 
 #. Tag: screen
 #, no-c-format
-msgid "\n"
+msgid ""
+"\n"
 "<computeroutput>$ </computeroutput><userinput>mkdir test</userinput>\n"
 "<computeroutput>$ </computeroutput><userinput>ls</userinput>\n"
 "<computeroutput>Desktop    Downloads  Pictures  Templates  Videos\n"
@@ -143,7 +147,8 @@ msgid "\n"
 "<computeroutput>Desktop    Downloads  Pictures  Templates  Videos\n"
 "Documents  Music      Public    test</computeroutput>\n"
 "      "
-msgstr "\n"
+msgstr ""
+"\n"
 "<computeroutput>$ </computeroutput><userinput>mkdir test</userinput>\n"
 "<computeroutput>$ </computeroutput><userinput>ls</userinput>\n"
 "<computeroutput>Desktop    Downloads  Pictures  Templates  Videos\n"
@@ -215,7 +220,8 @@ msgstr "Команда <command>free</command> показывает информ
 
 #. Tag: screen
 #, no-c-format
-msgid "\n"
+msgid ""
+"\n"
 "<computeroutput>$ </computeroutput><userinput>free</userinput>\n"
 "<computeroutput>             total       used       free     shared    buffers     cached\n"
 "Mem:       1028420    1009624      18796          0      47404     391804\n"
@@ -230,7 +236,8 @@ msgid "\n"
 "/dev/sda5             44552904  36315896   7784380  83% /home\n"
 "</computeroutput>\n"
 "      "
-msgstr "\n"
+msgstr ""
+"\n"
 "<computeroutput>$ </computeroutput><userinput>free</userinput>\n"
 "<computeroutput>             total       used       free     shared    buffers     cached\n"
 "Mem:       1028420    1009624      18796          0      47404     391804\n"
@@ -253,11 +260,13 @@ msgstr "Команда <command>id</command> показывает идентиф
 
 #. Tag: screen
 #, no-c-format
-msgid "\n"
+msgid ""
+"\n"
 "<computeroutput>$ </computeroutput><userinput>id</userinput>\n"
 "<computeroutput>uid=1000(rhertzog) gid=1000(rhertzog) groups=1000(rhertzog),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),108(netdev),109(bluetooth),115(scanner)</computeroutput>\n"
 "      "
-msgstr "\n"
+msgstr ""
+"\n"
 "<computeroutput>$ </computeroutput><userinput>id</userinput>\n"
 "<computeroutput>uid=1000(rhertzog) gid=1000(rhertzog) groups=1000(rhertzog),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),108(netdev),109(bluetooth),115(scanner)</computeroutput>\n"
 "      "
@@ -574,7 +583,8 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
-msgid "\n"
+msgid ""
+"\n"
 "<computeroutput>$ </computeroutput><userinput>lspci</userinput>\n"
 "<computeroutput>[...]\n"
 "00:02.1 Display controller: Intel Corporation Mobile 915GM/GMS/910GML Express Graphics Controller (rev 03)\n"
@@ -908,4 +918,3 @@ msgstr ""
 #, no-c-format
 msgid "Moreover, these libraries are often referred to as “shared libraries”, since the kernel is able to only load them into memory once, even if several processes use the same library at the same time. This allows saving memory, when compared with the opposite (hypothetical) situation where the code for a library would be loaded as many times as there are processes using it."
 msgstr ""
-

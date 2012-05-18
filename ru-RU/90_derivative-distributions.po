@@ -1,4 +1,4 @@
-# 
+#
 # AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
@@ -8,6 +8,7 @@ msgstr ""
 "PO-Revision-Date: 2012-05-09T20:00:22\n"
 "Last-Translator: sledopit i@irush.su\n"
 "Language-Team: None\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -186,4 +187,3 @@ msgstr "Сайт Distrowatch ссылается на огромное число
 #, no-c-format
 msgid "The search form can help track down a distribution based on its ancestry. In January 2012, selecting Debian led to 141 active distributions! <ulink type=\"block\" url=\"http://distrowatch.com/search.php\" />"
 msgstr "Поиск может помочь определить происхождение дистрибутива. В январе 2012 поиск потомков Debian показывал 141 активный дистрибутив! <ulink type=\"block\" url=\"http://distrowatch.     com/search.php\" />"
-
