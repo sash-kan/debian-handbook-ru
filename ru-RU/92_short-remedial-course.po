@@ -70,7 +70,7 @@ msgstr "<emphasis>ЗАМЕТКА</emphasis> Запуск интерпретат�
 #. Tag: para
 #, no-c-format
 msgid "A command-line environment can be run from the graphical desktop, by an application known as a “terminal”, such as those found under the <menuchoice><guimenu>Applications</guimenu> <guisubmenu>Accessories</guisubmenu></menuchoice> menu for GNOME, and in <menuchoice><guimenu>K</guimenu> <guisubmenu>Applications</guisubmenu> <guisubmenu>System</guisubmenu></menuchoice> for KDE."
-msgstr "Командную строку можно запустить из графического окружения с помощью приложения “терминал”, для этого в GNOME необходимо открыть <menuchoice><guimenu>Приложения</guimenu> <guisubmenu>Accessories</guisubmenu></menuchoice> и <guisubmenu>Приложения</guisubmenu> <guisubmenu>Система</guisubmenu></menuchoice> в KDE."
+msgstr "Командную строку можно запустить из графического окружения с помощью приложения “терминал”, для этого в GNOME необходимо открыть <menuchoice><guimenu>Приложения</guimenu> <guisubmenu>Accessories</guisubmenu></menuchoice> и <menuchoice><guisubmenu>Приложения</guisubmenu> <guisubmenu>Система</guisubmenu></menuchoice> в KDE."
 
 #. Tag: para
 #, no-c-format

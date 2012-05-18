@@ -25,7 +25,7 @@ msgstr "В последние годы Linux стремительно разви
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>BACK TO BASICS</emphasis> Linux distribution, Linux kernel"
-msgstr "<epmhasis>НАЗАД К ОСНОВАМ</emphasis> Распространение Linux. Ядро Linux"
+msgstr "<emphasis>НАЗАД К ОСНОВАМ</emphasis> Распространение Linux. Ядро Linux"
 
 #. Tag: indexterm
 #, no-c-format
