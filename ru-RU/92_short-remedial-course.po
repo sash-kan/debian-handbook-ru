@@ -61,7 +61,7 @@ msgstr "Shell оболочка и основные команды"
 #. Tag: para
 #, no-c-format
 msgid "In the Unix world, every administrator has to use the command line sooner or later; for example, when the system fails to start properly and only provides a command-line rescue mode. Being able to handle such an interface, therefore, is a basic survival skill for these circumstances."
-msgstr "В мире Unix каждый администртор рано или поздно начинает использовать командную строку. Например, если система не может запуститься в обычном режиме, загружается интерфейс командной строки для восстановления системы. Поэтому управление подобным интерфейсов является базовым умением для выхода из таких ситуаций."
+msgstr "В мире Unix каждый администратор рано или поздно начинает использовать командную строку. Например, если система не может запуститься в обычном режиме, загружается интерфейс командной строки для восстановления системы. Поэтому управление подобным интерфейсов является базовым умением для выхода из таких ситуаций."
 
 #. Tag: title
 #, no-c-format
@@ -86,7 +86,7 @@ msgstr "Просмотр дерева директорий и управлени
 #. Tag: para
 #, no-c-format
 msgid "Once a session is open, the <command>pwd</command> command (<emphasis>print working directory</emphasis>) displays the current location in the filesystem. The current directory is changed with the <command>cd <replaceable>directory</replaceable></command> command (<command>cd</command> is for <emphasis>change directory</emphasis>). The parent directory is always called <literal>..</literal> (two dots), whereas the current directory is also known as <literal>.</literal> (one dot). The <command>ls</command> command allows <emphasis>listing</emphasis> the contents of a directory. If no parameters are given, it operates on the current directory."
-msgstr "Как только сессия начата, команда <command>pwd</command> (<emphasis>print working directory</emphasis> = <emphasis>вывести рабочую директорию</emphasis>) показывает текущее местоположение в файловой системе. Текущую директорию можно поменть с помощью команды <command>cd <replaceable>directory</replaceable></command> (<command>cd</command> = <emphasis>change directory</emphasis> = <command>сменить директорию</command>) [прим. пер. здесь и далее под \"directory\" подразумевается имя директории]. К родительской директории можно так же обратиться по <literal>..</literal> (две точки), а к текущей как к <literal>.</literal> (одна точка). Команда <command>ls</command> позволяется просмотреть содержимое директории. Если при запуске не передаётся никаких параметров, то она работает с текущей директорией."
+msgstr "Как только сессия начата, команда <command>pwd</command> (<emphasis>print working directory</emphasis> = <emphasis>вывести рабочую директорию</emphasis>) показывает текущее местоположение в файловой системе. Текущую директорию можно поменять с помощью команды <command>cd <replaceable>directory</replaceable></command> (<command>cd</command> = <emphasis>change directory</emphasis> = <command>сменить директорию</command>) [прим. пер. здесь и далее под \"directory\" подразумевается имя директории]. К родительской директории можно так же обратиться по <literal>..</literal> (две точки), а к текущей как к <literal>.</literal> (одна точка). Команда <command>ls</command> позволяется просмотреть содержимое директории. Если при запуске не передаётся никаких параметров, то она работает с текущей директорией."
 
 #. Tag: screen
 #, no-c-format
@@ -171,12 +171,12 @@ msgstr "Просмотр и изменение текстовых файлов"
 #. Tag: para
 #, no-c-format
 msgid "The <command>cat <replaceable>file</replaceable></command> command (intended to <emphasis>concatenate</emphasis> files on its standard output) reads a file and displays its contents in the terminal. If the file is too big to fit on a screen, use a pager such as <command>less</command> (or <command>more</command>) to display it page by page."
-msgstr "Команда <command>cat <replaceable>file</replaceable></command> (от англ. <emphasis>concatenate</emphasis> = <emphasis>сцеплять</emphasis>) считывает файлы и выводит их содержиое в терминал. В случае, если файл слишком большой и не помещается на экран, можно использовать просмотрщик <command>less</command> (или <command>more</command>) для отображения содержимого страница за страницей."
+msgstr "Команда <command>cat <replaceable>file</replaceable></command> (от англ. <emphasis>concatenate</emphasis> = <emphasis>сцеплять</emphasis>) считывает файлы и выводит их содержимое в терминал. В случае, если файл слишком большой и не помещается на экран, можно использовать просмотрщик <command>less</command> (или <command>more</command>) для отображения содержимого страница за страницей."
 
 #. Tag: para
 #, no-c-format
 msgid "The <command>editor</command> command always points at a text editor (such as <command>vi</command> or <command>nano</command>) and allows creating, modifying and reading text files. The simplest files can sometimes be created directly from the command interpreter thanks to redirection: <command>echo \"<replaceable>text</replaceable>\" &gt;<replaceable>file</replaceable></command> creates a file named <replaceable>file</replaceable> with “<replaceable>text</replaceable>” as its contents. Adding a line at the end of this file is possible too, with a command such as <command>echo \"<replaceable>line</replaceable>\" &gt;&gt;<replaceable>file</replaceable></command>."
-msgstr "Команда <command>editor</command> всегда указывает на текстовый редактор (например <command>vi</command> или <command>nano</command>) и позволяет создавать, редактировть и просматривать текстовые файлы. Простейшие файлы можно создать напрямую из командной строки с использование перенаправления потока: <command>echo \"<replaceable>text</replaceable>\" &gt;<replaceable>file</replaceable></command> создаст файл <replaceable>file</replaceable>, внутри которого содержится “<replaceable>text</replaceable>”. Так же возможно добавить строку в конец файла следующей командой: <command>echo \"<replaceable>line</replaceable>\" &gt;&gt;<replaceable>file</replaceable></command>."
+msgstr "Команда <command>editor</command> всегда указывает на текстовый редактор (например <command>vi</command> или <command>nano</command>) и позволяет создавать, редактировать и просматривать текстовые файлы. Простейшие файлы можно создать напрямую из командной строки с использованием перенаправления потока: <command>echo \"<replaceable>text</replaceable>\" &gt;<replaceable>file</replaceable></command> создаст файл <replaceable>file</replaceable>, внутри которого содержится “<replaceable>text</replaceable>”. Так же возможно добавить строку в конец файла следующей командой: <command>echo \"<replaceable>line</replaceable>\" &gt;&gt;<replaceable>file</replaceable></command>."
 
 #. Tag: title
 #, no-c-format
@@ -256,7 +256,7 @@ msgstr ""
 #. Tag: para
 #, no-c-format
 msgid "The <command>id</command> command displays the identity of the user running the session, along with the list of groups they belong to. Since access to some files or devices may be limited to group members, checking available group membership may be useful."
-msgstr "Команда <command>id</command> показывает идентификатор текущего пользователя, а так же список групп, в которых он состоит. Посколько порой присутствуют ограничения для членов групп на доступ к файлам или устройствам, эта информация может оказаться очень полезной."
+msgstr "Команда <command>id</command> показывает идентификатор текущего пользователя, а так же список групп, в которых он состоит. Поскольку порой присутствуют ограничения для членов групп на доступ к файлам или устройствам, эта информация может оказаться очень полезной."
 
 #. Tag: screen
 #, no-c-format
@@ -389,7 +389,7 @@ msgstr "Часто в домашней директории пользовате
 #. Tag: para
 #, no-c-format
 msgid "Some programs use multiple configuration files organized in one directory (for instance, <filename>~/.evolution/</filename>). Some applications (such as the Iceweasel web browser) also use their directory to store a cache of downloaded data. This means that those directories can end up using a lot of disk space."
-msgstr "Некоторые программы используют целый набор конфигурационных файлов и хранит их в определённой директории (например, <filename>~/.evolution/</filename>). Часть из них (такие как веб-браузер Iceweasel) использует свои директории для хранения кэша загружаемых данных. Это модет привести к тому, что эти директории будут занимать очень много места на диске."
+msgstr "Некоторые программы используют целый набор конфигурационных файлов и хранит их в определённой директории (например, <filename>~/.evolution/</filename>). Часть из них (такие как веб-браузер Iceweasel) использует свои директории для хранения кэша загружаемых данных. Это может привести к тому, что эти директории будут занимать очень много места на диске."
 
 #. Tag: para
 #, no-c-format
@@ -464,7 +464,7 @@ msgstr "<primary>USB</primary>"
 #. Tag: para
 #, no-c-format
 msgid "Let us start with a basic reminder that a computer is, first and foremost, a set of hardware elements. There is generally a main board, with one (or more) processor(s), some RAM, device controllers, and extension slots for option boards (for other device controllers). Most noteworthy among these controllers are IDE (Parallel ATA), SCSI and Serial ATA, for connecting to storage devices such as hard disks. Other controllers include USB, which is able to host a great variety of devices (ranging from webcams to thermometers, from keyboards to home automation systems) and IEEE_1394 (Firewire). These controllers often allow connecting several devices so the complete subsystem handled by a controller is therefore usually known as a “bus”. Option boards include graphics cards (where monitor screens will be plugged in to), sound cards, network interface cards, and so on. Some main boards are pre-built with these features, and don't need option boards."
-msgstr "Для начала стоит вспомнить, что компьютер является набором различных аппаратных устройств. Обычно это материнаская плата с одним или более процессорами, оперативная память, контроллер устройств и дополнительные слоты для различных устройств. Среди прочих стоит отметить интерфейсы IDE (Parallel ATA), SCSI и  Serial ATA для подключения устройств хранения данных, например, жёстких дисков. Другие контроллеры используют USB, который позволяет подключать огромное количество устройств, от веб-камер до термометров, от клавиатур до умных домов) и  IEEE_1394 (Firewire). Эти контроллеры часто позволяют подключать несколько устройств, поэтому вся подсистема, обрабатываемая контроллером, называется “шиной”. Дополнительные платы - это обычно видеокарта (к которой подключается монитор), звуковая карта, сетевая карта и други. Некоторые материнские платы уже включают в себя все эти функции и не нуждаются в дополнительных платах."
+msgstr "Для начала стоит вспомнить, что компьютер является набором различных аппаратных устройств. Обычно это материнская плата с одним или более процессорами, оперативная память, контроллер устройств и дополнительные слоты для различных устройств. Среди прочих стоит отметить интерфейсы IDE (Parallel ATA), SCSI и  Serial ATA для подключения устройств хранения данных, например, жёстких дисков. Другие контроллеры используют USB, который позволяет подключать огромное количество устройств, от веб-камер до термометров, от клавиатур до умных домов) и  IEEE_1394 (Firewire). Эти контроллеры часто позволяют подключать несколько устройств, поэтому вся подсистема, обрабатываемая контроллером, называется “шиной”. Дополнительные платы - это обычно видеокарта (к которой подключается монитор), звуковая карта, сетевая карта и другие. Некоторые материнские платы уже включают в себя все эти функции и не нуждаются в дополнительных платах."
 
 #. Tag: title
 #, no-c-format
@@ -474,7 +474,7 @@ msgstr "<emphasis>НА ПРАКТИКЕ</emphasis> Проверка работо
 #. Tag: para
 #, no-c-format
 msgid "Checking that a piece of hardware works can be tricky. On the other hand, proving that it doesn't work is sometimes quite simple."
-msgstr "Часто проверка работоспособности может быть весьма нетривиальной, однако, пороя выяснить что устройство не работает может быть достаточно просто."
+msgstr "Часто проверка работоспособности может быть весьма нетривиальной, однако, порой выяснить, что устройство не работает, может быть достаточно просто."
 
 #. Tag: para
 #, no-c-format
