@@ -464,27 +464,27 @@ msgstr "<primary>USB</primary>"
 #. Tag: para
 #, no-c-format
 msgid "Let us start with a basic reminder that a computer is, first and foremost, a set of hardware elements. There is generally a main board, with one (or more) processor(s), some RAM, device controllers, and extension slots for option boards (for other device controllers). Most noteworthy among these controllers are IDE (Parallel ATA), SCSI and Serial ATA, for connecting to storage devices such as hard disks. Other controllers include USB, which is able to host a great variety of devices (ranging from webcams to thermometers, from keyboards to home automation systems) and IEEE_1394 (Firewire). These controllers often allow connecting several devices so the complete subsystem handled by a controller is therefore usually known as a “bus”. Option boards include graphics cards (where monitor screens will be plugged in to), sound cards, network interface cards, and so on. Some main boards are pre-built with these features, and don't need option boards."
-msgstr ""
+msgstr "Для начала стоит вспомнить, что компьютер является набором различных аппаратных устройств. Обычно это материнаская плата с одним или более процессорами, оперативная память, контроллер устройств и дополнительные слоты для различных устройств. Среди прочих стоит отметить интерфейсы IDE (Parallel ATA), SCSI и  Serial ATA для подключения устройств хранения данных, например, жёстких дисков. Другие контроллеры используют USB, который позволяет подключать огромное количество устройств, от веб-камер до термометров, от клавиатур до умных домов) и  IEEE_1394 (Firewire). Эти контроллеры часто позволяют подключать несколько устройств, поэтому вся подсистема, обрабатываемая контроллером, называется “шиной”. Дополнительные платы - это обычно видеокарта (к которой подключается монитор), звуковая карта, сетевая карта и други. Некоторые материнские платы уже включают в себя все эти функции и не нуждаются в дополнительных платах."
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>IN PRACTICE</emphasis> Checking that the hardware works"
-msgstr ""
+msgstr "<emphasis>НА ПРАКТИКЕ</emphasis> Проверка работоспособности аппаратных устройств"
 
 #. Tag: para
 #, no-c-format
 msgid "Checking that a piece of hardware works can be tricky. On the other hand, proving that it doesn't work is sometimes quite simple."
-msgstr ""
+msgstr "Часто проверка работоспособности может быть весьма нетривиальной, однако, пороя выяснить что устройство не работает может быть достаточно просто."
 
 #. Tag: para
 #, no-c-format
 msgid "A hard disk drive is made of spinning platters and moving magnetic heads. When a hard disk is powered up, the platter motor makes a characteristic whir. It also dissipates energy as heat. Consequently, a hard disk drive that stays cold and silent when powered up is broken."
-msgstr ""
+msgstr "Жёсткий диск состоит из вращающихся дисков и подвижных магнитных головок. Во время работы мотор создаёт характерный шум, что приводит к выделению тепла. А значит, диск который во время работы остаётся холодным и тихим - сломан."
 
 #. Tag: para
 #, no-c-format
 msgid "Network cards often include LEDs displaying the state of the link. If a cable is plugged in and leads to a working network hub or switch, at least one LED will be on. If no LEDs lights, either the card itself, the network device, or the cable between them, is faulty. The next step is therefore testing each component individually."
-msgstr ""
+msgstr "На сетевой карточке чаще всего есть LED, показывающие состояние связи. Если кабель подключён к компьютеру, а другим концом в хаб или свитч, то по крайней мере одна лампочка должна гореть. Если LED не горят, то либо сетевая карточка, либо сетевое устройство, либо кабель между ними неисправны. Поэтому следующим шагом необходимо протестировать каждый компонент в отдельности."
 
 #. Tag: para
 #, no-c-format
