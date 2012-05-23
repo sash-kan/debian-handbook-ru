@@ -489,37 +489,37 @@ msgstr "На сетевой карточке чаще всего есть LED, �
 #. Tag: para
 #, no-c-format
 msgid "Some option boards — especially 3D video cards — include cooling devices, such as heat sinks and/or fans. If the fan does not spin even though the card is powered up, a plausible explanation is the card overheated. This also applies to the main processor(s) located on the main board."
-msgstr ""
+msgstr "Некоторые дополнительные платы, в особенности 3D видеокарты, оснащены охлаждающими устройствами, например теплоотводами и/или кулерами. Если кулер не вращается даже во время работы карты, то вполне естественно, что карта может перегреться. Это так же относится и к процессору(ам), расположенным на материнской плате."
 
 #. Tag: title
 #, no-c-format
 msgid "The Starter: the BIOS"
-msgstr ""
+msgstr "Запуск: BIOS"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>BIOS</primary>"
-msgstr ""
+msgstr "<primary>BIOS</primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "Hardware, on its own, is unable to perform useful tasks without a corresponding piece of software driving it. Controlling and interacting with the hardware is the purpose of the operating system and applications. These, in turn, require functional hardware to run."
-msgstr ""
+msgstr "Сама по себе аппаратная часть не способна выполнять сколь-нибудь полезные задачи без программного обеспечения, управляющего железном. Поэтому управление и взаимодействие с аппаратным уровнем одна из целей операционной системы и приложений, что в свою очередь требует уже функционирующей аппаратной части."
 
 #. Tag: para
 #, no-c-format
 msgid "This symbiosis between hardware and software does not happen on its own. When the computer is first powered up, some initial setup is required. This role is assumed by the BIOS, a tiny piece of software embedded into the main board that runs automatically upon power-up. Its primary task is searching for software it can hand over control to. Usually, this involves looking for the first hard disk with a boot sector (also known as the <emphasis>master boot record</emphasis> or <acronym>MBR</acronym>), loading that boot sector, and running it. From then on, the BIOS is usually not involved (until the next boot)."
-msgstr ""
+msgstr "Такой симбиоз аппаратной и программной частей не появляется сам собой. Когда компьютер включается, требуется начальная настройка. Эту роль берёт на себя BIOS - небольшая часть программного обеспечения, встроенного в материнскую плату, которая запускается автоматически при включении. Его первоначальная задача - обнаружить программное обеспечение, которому можно передать управление. Обычно это выглядит как поиск первого жёсткого диска с загрузочным сектором, так же известного как <emphasis>master boot record</emphasis> или <acronym>MBR</acronym>), загрузка это сектора и его запуск. Затем BIOS прекращает своё участие в процессе до следующей загрузки."
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>TOOL</emphasis> Setup, the BIOS configuration tool"
-msgstr ""
+msgstr "<emphasis>ИНСТРУМЕНТ</emphasis> Настройка, утилита конфигурации BIOS"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><emphasis>Setup</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>Настройка</emphasis></primary>"
 
 #. Tag: para
 #, no-c-format
@@ -539,7 +539,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "The Kernel"
-msgstr ""
+msgstr "Ядро"
 
 #. Tag: para
 #, no-c-format
@@ -549,7 +549,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "The User Space"
-msgstr ""
+msgstr "Пользовательское пространство"
 
 #. Tag: para
 #, no-c-format
@@ -559,7 +559,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Some Tasks Handled by the Kernel"
-msgstr ""
+msgstr "Некоторые задачи, решаемые ядром"
 
 #. Tag: title
 #, no-c-format
@@ -579,7 +579,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Example of information provided by <command>lspci</command> and <command>lsusb</command>"
-msgstr ""
+msgstr "Пример информации, предоствляемой <command>lspci</command> и <command>lsusb</command>"
 
 #. Tag: screen
 #, no-c-format
@@ -603,6 +603,25 @@ msgid ""
 "</computeroutput>\n"
 "      "
 msgstr ""
+"\n"
+"<computeroutput>$ </computeroutput><userinput>lspci</userinput>\n"
+"<computeroutput>[...]\n"
+"00:02.1 Display controller: Intel Corporation Mobile 915GM/GMS/910GML Express Graphics Controller (rev 03)\n"
+"00:1c.0 PCI bridge: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) PCI Express Port 1 (rev 03)\n"
+"00:1d.0 USB Controller: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #1 (rev 03)\n"
+"[...]\n"
+"01:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5751 Gigabit Ethernet PCI Express (rev 01)\n"
+"02:03.0 Network controller: Intel Corporation PRO/Wireless 2200BG Network Connection (rev 05)\n"
+"$ </computeroutput><userinput>lsusb</userinput>\n"
+"<computeroutput>Bus 005 Device 004: ID 413c:a005 Dell Computer Corp.\n"
+"Bus 005 Device 008: ID 413c:9001 Dell Computer Corp.\n"
+"Bus 005 Device 007: ID 045e:00dd Microsoft Corp.\n"
+"Bus 005 Device 006: ID 046d:c03d Logitech, Inc.\n"
+"[...]\n"
+"Bus 002 Device 004: ID 413c:8103 Dell Computer Corp. Wireless 350 Bluetooth\n"
+"</computeroutput>\n"
+"      "
+
 
 #. Tag: para
 #, no-c-format
@@ -622,12 +641,12 @@ msgstr ""
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>filesystem</primary>"
-msgstr ""
+msgstr "<primary>файловая система</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>system, filesystem</primary>"
-msgstr ""
+msgstr "<primary>система, файловая система</primary>"
 
 #. Tag: para
 #, no-c-format

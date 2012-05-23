@@ -151,7 +151,7 @@ msgstr "Этот дистрибутив изначально базировал�
 #. Tag: title
 #, no-c-format
 msgid "Aptosid (Formerly Sidux)"
-msgstr "Aptosid (Formerly Sidux)"
+msgstr "Aptosid (ранее Sidux)"
 
 #. Tag: para
 #, no-c-format
