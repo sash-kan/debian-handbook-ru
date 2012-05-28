@@ -489,7 +489,7 @@ msgstr "На сетевой карточке чаще всего есть LED, �
 #. Tag: para
 #, no-c-format
 msgid "Some option boards — especially 3D video cards — include cooling devices, such as heat sinks and/or fans. If the fan does not spin even though the card is powered up, a plausible explanation is the card overheated. This also applies to the main processor(s) located on the main board."
-msgstr "Некоторые дополнительные платы, в особенности 3D видеокарты, оснащены охлаждающими устройствами, например теплоотводами и/или кулерами. Если кулер не вращается даже во время работы карты, то вполне естественно, что карта может перегреться. Это так же относится и к процессору(ам), расположенным на материнской плате."
+msgstr "Некоторые дополнительные платы, в особенности 3D видеокарты, оснащены охлаждающими устройствами, например теплоотводами и/или кулерами. Если кулер не вращается даже во время работы карты, то вполне естественно, что карта может перегреться. Это так же относится и к процессору(ам), расположенному на материнской плате."
 
 #. Tag: title
 #, no-c-format
@@ -514,27 +514,27 @@ msgstr "Такой симбиоз аппаратной и программной
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>TOOL</emphasis> Setup, the BIOS configuration tool"
-msgstr "<emphasis>ИНСТРУМЕНТ</emphasis> Настройка, утилита конфигурации BIOS"
+msgstr "<emphasis>ИНСТРУМЕНТ</emphasis> Setup, утилита конфигурации BIOS"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><emphasis>Setup</emphasis></primary>"
-msgstr "<primary><emphasis>Настройка</emphasis></primary>"
+msgstr "<primary><emphasis>Setup</emphasis></primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "The BIOS also contains a piece of software called Setup, designed to allow configuring aspects of the computer. In particular, it allows choosing which boot device is preferred (for instance, the floppy disk or CD-ROM drive), setting the system clock, and so on. Starting Setup usually involves pressing a key very soon after the computer is powered on. This key is often <keycap>Del</keycap> or <keycap>Esc</keycap>, sometimes <keycap>F2</keycap> or <keycap>F10</keycap>. Most of the time, the choice is flashed on screen while booting."
-msgstr ""
+msgstr "BIOS состоит из программного обеспечения Setup, созданного для конфигурирования различных параметров компьютера. В частности, позволяется выбрать устройство, с которого предпочтительнее загружаться (например, флоппи-дисковод или CD-ROM), настроить системное время и т.д. Запуск Setup обычно происходит при нажатии кнопки сразу же после включения компьютера. Часто это <keycap>Del</keycap> или <keycap>Esc</keycap>, иногда это <keycap>F2</keycap> или <keycap>F10</keycap>. В большинстве случаев во время загрузки информация о выборе выводит на экран."
 
 #. Tag: para
 #, no-c-format
 msgid "The boot sector, in turn, contains another tiny piece of software, called the bootloader, whose purpose is to find and run an operating system. Since this bootloader is not embedded in the main board but loaded from disk, it can be smarter than the BIOS, which explains why the BIOS does not load the operating system by itself. For instance, the bootloader (often GRUB on Linux systems) can list the available operating systems and ask the user to choose one. Usually, a time-out and default choice is provided. Sometimes the user can also choose to add parameters to pass to the kernel, and so on. Eventually, a kernel is found, loaded into memory, and executed."
-msgstr ""
+msgstr "Загрузочный сектор содержит загрузчик - программное обеспечение, цель которого найти и запустить операционную систему. Поскольку загрузчик не встроен в материнскую плату, а загружается с диска, он может быть гораздо функциональнее BIOS'а. Это основная причина, по которой BIOS не загружает операционную систему самостоятельно. Например, загрузчик (на Linux системах это чаще всего GRUB) может вывести список доступных операционных систем и предложить пользователю выбрать одну из них. Иногда пользователь может самостоятельно добавить параметры ядру, а также многое другое. И наконец ядро найдено, загружено в память и запущено."
 
 #. Tag: para
 #, no-c-format
 msgid "The BIOS is also in charge of detecting and initializing a number of devices. Obviously, this includes the IDE/SATA devices (usually hard disk(s) and CD/DVD-ROM drives), but also PCI devices. Detected devices are often listed on screen during the boot process. If this list goes by too fast, use the <keycap>Pause</keycap> key to freeze it for long enough to read. Installed PCI devices that don't appear, are a bad omen. At worst, the device is faulty. At best, it is merely incompatible with the current version of the BIOS or main board. PCI specifications evolve, and old main boards are not guaranteed to handle newer PCI devices."
-msgstr ""
+msgstr "BIOS так же отвечает за обнаружение и инициализацию ряда устройств. Очевидно, это IDE/SATA устройства (как правило, жёсткие диски и CD/DVD приводы), а так же PCI устройства. Список обнаруженных устройств чаще всего выводится на экран во время загрузки. Если этот список очень быстро исчезает, можно нажать <keycap>Pause</keycap> для заморозки экрана на время, чтобы успеть прочитать текст. Если установленные PCI не появляются - это плохая примета. В худшем случае устройство неисправно. В лучшем - несовместимо с текущей версией BIOS'а или материнской платы. PCI спецификации эволюционируют, поэтому нет никаких гарантий, что старые материнские платы будут поддерживать более новые PCI устройства."
 
 #. Tag: title
 #, no-c-format
@@ -544,7 +544,7 @@ msgstr "Ядро"
 #. Tag: para
 #, no-c-format
 msgid "Both the BIOS and the bootloader only run for a few seconds each; now we're getting to the first piece of software that runs for a longer time, the operating system kernel. This kernel assumes the role of a conductor in an orchestra, and ensures coordination between hardware and software. This role involves several tasks including: driving hardware, managing processes, users and permissions, the filesystem, and so on. The kernel provides a common base to all other programs on the system."
-msgstr ""
+msgstr "И BIOS и загрузчик работают не более нескольких секунд: следующая часть программного обеспечения - ядро операционной системы работает гораздо дольше. Ядро берёт на себя роль дирижёра оркестра и координирует взаимодействие между аппаратной и программной частями. Эта роль включает в себя управление аппаратной частью, управление процессами, пользователями и правами, файловой системой и многие другие задачи. Ядро предоставляет общую базу для всех других программ в системе."
 
 #. Tag: title
 #, no-c-format
@@ -554,7 +554,7 @@ msgstr "Пользовательское пространство"
 #. Tag: para
 #, no-c-format
 msgid "Although everything that happens outside of the kernel can be lumped together under “user-space”, we can still separate it into software layers. However, their interactions are more complex than before, and the classifications may not be as simple. An application commonly uses libraries, which in turn involve the kernel, but the communications can also involve other programs, or even many libraries calling each other."
-msgstr ""
+msgstr "Хотя всё, что происходит за пределами ядра может быть объединено в термин “пользовательской пространство” (“user-space”), мы всё же поделим эти процессы на отдельные программные уровни. Хотя их взаимодействие более сложное, чем раньше, и классификация может быть не такой простой. Приложения обычно используют библиотеки, которые в свою очередь связаны с ядром, но связь может включать другие программы или даже множество библиотек, вызывающих друг друга."
 
 #. Tag: title
 #, no-c-format
@@ -564,22 +564,22 @@ msgstr "Некоторые задачи, решаемые ядром"
 #. Tag: title
 #, no-c-format
 msgid "Driving the Hardware"
-msgstr ""
+msgstr "Управление аппаратным обеспечением"
 
 #. Tag: para
 #, no-c-format
 msgid "The kernel is, first and foremost, tasked with controlling the hardware parts, detecting them, switching them on when the computer is powered on, and so on. It also makes them available to higher-level software with a simplified programming interface, so applications can take advantage of devices without having to worry about details such as which extension slot the option board is plugged into. The programming interface also provides an abstraction layer; this allows video-conferencing software, for example, to use a webcam independently of its make and model. The software can just use the <emphasis>Video for Linux</emphasis> (V4L) interface, and the kernel translates the function calls of this interface into the actual hardware commands needed by the specific webcam in use."
-msgstr ""
+msgstr "В первую очередь ядро служит для контроля за оборудованием, обнаружения его, их переключения при включении компьютера и т.д. Также оно предоставляет доступ к оборудования для более высокоуровневого программного обеспечения с помощью упрощённого программного интерфейса, поэтому программы могут общаться с устройствами, не беспокоясь о том к какому слоту подключена дополнительная плата и прочих деталях. Программный интерфейс предоставляет некий слой абстракций, что позволяет, например, программе для видеоконференций использовать вебкамеру независимо от производителя и модели. Она просто использует интерфейс <emphasis>Video for Linux</emphasis> (V4L), а ядро транслирует функции вызова этого интерфейса в команды для устройство, используемые этой конкретной моделью."
 
 #. Tag: para
 #, no-c-format
 msgid "<indexterm><primary><command>lspci</command></primary></indexterm> <indexterm><primary><command>lsusb</command></primary></indexterm> <indexterm><primary><command>lsdev</command></primary></indexterm> <indexterm><primary><command>lspcmcia</command></primary></indexterm> The kernel exports many details about detected hardware through the <filename>/proc/</filename> and <filename>/sys/</filename> virtual filesystems. Several tools summarize those details. Among them, <command>lspci</command> (in the <emphasis role=\"pkg\">pciutils</emphasis> package) lists PCI devices, <command>lsusb</command> (in the <emphasis role=\"pkg\">usbutils</emphasis> package) lists USB devices, and <command>lspcmcia</command> (in the <emphasis role=\"pkg\">pcmciautils</emphasis> package) lists PCMCIA cards. These tools are very useful for identifying the exact model of a device. This identification also allows more precise searches on the web, which in turn, lead to more relevant documents."
-msgstr ""
+msgstr "<indexterm><primary><command>lspci</command></primary></indexterm> <indexterm><primary><command>lsusb</command></primary></indexterm> <indexterm><primary><command>lsdev</command></primary></indexterm> <indexterm><primary><command>lspcmcia</command></primary></indexterm> Большинство деталей об обнаруженном оборудовании ядро отображает в виртуальных файловых системах <filename>/proc/</filename> и <filename>/sys/</filename>. Некоторые утилиты структурируют эти детали. Так <command>lspci</command> (из пакета <emphasis role=\"pkg\">pciutils</emphasis>) выводит список PCI устройств, <command>lsusb</command> (из пакета <emphasis role=\"pkg\">usbutils</emphasis>) - список USB устройств, а <command>lspcmcia</command> (из пакеты <emphasis role=\"pkg\">pcmciautils</emphasis>) - список PCMCIA карт. Эти утилиты очень полезны для определения модели устройства, что позволяет более точно определить направление поиска в интернете, что в свою очередь приводит к наиболее подходящей документации."
 
 #. Tag: title
 #, no-c-format
 msgid "Example of information provided by <command>lspci</command> and <command>lsusb</command>"
-msgstr "Пример информации, предоствляемой <command>lspci</command> и <command>lsusb</command>"
+msgstr "Пример информации, предоставляемой <command>lspci</command> и <command>lsusb</command>"
 
 #. Tag: screen
 #, no-c-format
@@ -626,17 +626,17 @@ msgstr ""
 #. Tag: para
 #, no-c-format
 msgid "These programs have a <literal>-v</literal> option, that lists much more detailed (but usually not necessary) information. Finally, the <command>lsdev</command> command (in the <emphasis role=\"pkg\">procinfo</emphasis> package) lists communication resources used by devices."
-msgstr ""
+msgstr "Опция <literal>-v</literal> у данной программы позволяет вывести более подробную, но как правило неиспользуемую, информацию. И наконец, команда  <command>lsdev</command> (из пакета <emphasis role=\"pkg\">procinfo</emphasis> выводит список используемых устройств ввода/вывода."
 
 #. Tag: para
 #, no-c-format
 msgid "Applications often access devices by way of special files created within <filename>/dev/</filename> (see sidebar <xref linkend=\"cadre.fichiers-speciaux\" />). These are special files that represent disk drives (for instance, <filename>/dev/hda</filename> and <filename>/dev/sdc</filename>), partitions (<filename>/dev/hda1</filename> or <filename>/dev/sdc3</filename>), mice (<filename>/dev/input/mouse0</filename>), keyboards (<filename>/dev/input/event0</filename>), soundcards (<filename>/dev/snd/*</filename>), serial ports (<filename>/dev/ttyS*</filename>), and so on."
-msgstr ""
+msgstr "Часто приложение взаимодействует с устройством с помощью специального файла, созданного в <filename>/dev/</filename> (см. <xref linkend=\"cadre.fichiers-speciaux\" />). Это файлы, которые представляют дисковые устройства (например, <filename>/dev/hda</filename> и <filename>/dev/sdc</filename>), разделы (<filename>/dev/hda1</filename> или <filename>/dev/sdc3</filename>), мыши (<filename>/dev/input/mouse0</filename>), клавиатуры (<filename>/dev/input/event0</filename>), звуковые карты (<filename>/dev/snd/*</filename>), серийные порты (<filename>/dev/ttyS*</filename>) и многое другое."
 
 #. Tag: title
 #, no-c-format
 msgid "Filesystems"
-msgstr ""
+msgstr "Файловые системы"
 
 #. Tag: indexterm
 #, no-c-format
@@ -651,27 +651,27 @@ msgstr "<primary>система, файловая система</primary>"
 #. Tag: para
 #, no-c-format
 msgid "Filesystems are one of the most prominent aspects of the kernel. Unix systems merge all the file storages into a single hierarchy, which allows users (and applications) to access data simply by knowing its location within that hierarchy."
-msgstr ""
+msgstr "Файловая система - это один из наиболее примечательных разделов ядра. Unix системы объединяют все файловые хранилища в единую иерархию, что позволяет пользователям (и приложениям) получить доступ к данным лишь по их расположению в иерархии."
 
 #. Tag: para
 #, no-c-format
 msgid "The starting point of this hierarchical tree is called the root, <filename>/</filename>. This directory can contain named subdirectories. For instance, the <literal>home</literal> subdirectory of <filename>/</filename> is called <filename>/home/</filename>. This subdirectory can, in turn, contain other subdirectories, and so on. Each directory can also contain files, where the actual data will be stored. Thus, the <filename>/home/rmas/Desktop/hello.txt</filename> name refers to a file named <literal>hello.txt</literal> stored in the <literal>Desktop</literal> subdirectory of the <literal>rmas</literal> subdirectory of the <literal>home</literal> directory present in the root. The kernel translates between this naming system and the actual, physical storage on a disk."
-msgstr ""
+msgstr "Начальная точка этой иерархии называется root (рут), <filename>/</filename>. В ней содержатся различные поддиректории. Например, поддиректория <literal>home</literal> директории <filename>/</filename> может вызываться как <filename>/home/</filename>. Эта поддиректория может в свою очередь иметь поддиректории, и т.д. Каждая директория также может содержать файлы, где находятся различные данные. Таким образом, имя <filename>/home/rmas/Desktop/hello.txt</filename> относится к файлу <literal>hello.txt</literal>, хранящемуся в <literal>Desktop</literal>, поддиректории <literal>rmas</literal>, поддиректории <literal>home</literal> рутовой директории. Ядро транслирует имена в конкретное физическое расположение на диске."
 
 #. Tag: para
 #, no-c-format
 msgid "Unlike other systems, there's only one such hierarchy, and it can integrate data from several disks. One of these disks is used as the root, and the others are “mounted” on directories in the hierarchy (the Unix command is called <command>mount</command>); these other disks are then available under these “mount points”. This allows storing users' home directories (traditionally stored within <filename>/home/</filename>) on a second hard disk, which will contain <literal>rhertzog</literal> and <literal>rmas</literal> directories. Once the disk is mounted on <filename>/home/</filename>, these directories become accessible at their usual locations, and paths such as <filename>/home/rmas/Desktop/hello.txt</filename> keep working."
-msgstr ""
+msgstr "В отличие от другие систем, здесь только одна иерархия, и в неё могут быть интергрированы данные с нескольких дисков. Один из этих дисков используется для рута, остальные “примонтированы” в директории в иерархии (Unix команда называется <command>mount</command>) и доступны в “точках монтирования”. Это позволяет хранить пользователям свои домашние директории (традиционно они хранятся в <filename>/home/</filename>) на втором диске, который, например, может содержать директории <literal>rhertzog</literal> и <literal>rmas</literal>. После того, как диск примонтирован в <filename>/home/</filename>, эти директории становятся доступны по их обычному расположению, и становятся доступны такие файлы, как <filename>/home/rmas/Desktop/hello.txt</filename>."
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><command>mkfs</command></primary>"
-msgstr ""
+msgstr "<primary><command>mkfs</command></primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "There are many filesystems, corresponding to many ways of physically storing data on disks. The most widely known are <emphasis>ext2</emphasis>, <emphasis>ext3</emphasis> and <emphasis>ext4</emphasis>, but others exist. For instance, <emphasis>vfat</emphasis> is the system that was historically used by DOS and Windows operating systems, which allows using hard disks under Debian as well as under Windows. In any case, a filesystem must be prepared on a disk before it can be mounted and this operation is known as “formatting”. Commands such as <command>mkfs.ext3</command> (where <command>mkfs</command> stands for <emphasis>MaKe FileSystem</emphasis>) handle formatting. These commands require, as a parameter, a device file representing the partition to be formatted (for instance, <filename>/dev/sda1</filename>). This operation is destructive and should only be run once, except if one deliberately wishes to wipe a filesystem and start afresh."
-msgstr ""
+msgstr "Различные файловый системы на физическом уровне по-разному хранят свои данные на дисках. Наиболее известные <emphasis>ext2</emphasis>, <emphasis>ext3</emphasis> и <emphasis>ext4</emphasis>, но так же существует множество других. Например, <emphasis>vfat</emphasis> - система, исторически используемая в операционных системах DOS и Windows, и позволяет пользоваться данными на жёстких дисках как в Debian, так и в Windows. В любом случае, файловая система должна подготовить диск к работе, эта операция известна как “форматирование”. Такие команды, как <command>mkfs.ext3</command> (где <command>mkfs</command> раскрывается как <emphasis>MaKe FileSystem</emphasis> [<emphasis>создать файловую систему</emphasis>]) выполняют форматирование. Они требуют в качестве параметра файл, представляющий раздел, который должен быть отформатирован (например, <filename>/dev/sda1</filename>). Эта операция разрушает все данные и должна применяться только один раз, не считая случаи, когда необходима принудительная очистка файловой системы."
 
 #. Tag: para
 #, no-c-format
