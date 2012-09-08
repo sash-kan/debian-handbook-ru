@@ -5,25 +5,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2012-05-09T20:00:22\n"
-"PO-Revision-Date: 2012-05-09T20:00:22\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2012-09-08 12:35+0600\n"
+"Last-Translator: Timur Timirkhanov <tim_tim2000@mail.ru>\n"
 "Language-Team: None\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Tag: title
 #, no-c-format
 msgid "Revision History"
-msgstr ""
+msgstr "История ревизий"
 
 #. Tag: firstname
 #, no-c-format
 msgid "Raphaël"
-msgstr ""
+msgstr "Рафаэль"
 
 #. Tag: surname
 #, no-c-format
 msgid "Hertzog"
-msgstr ""
+msgstr "Херцог"
+
