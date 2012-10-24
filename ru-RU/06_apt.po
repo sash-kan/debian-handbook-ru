@@ -997,7 +997,7 @@ msgstr "В подобной ситуации обновления (<command>safe
 #. Tag: para
 #, no-c-format
 msgid "Everything centers around the fact that APT only considers packages of higher or equal version than the installed one (assuming that <filename>/etc/apt/preferences</filename> has not been used to force priorities higher than 1000 for some packages)."
-msgstr "Всё крутится вокруг того, что APT рассматривает только пакеты более высокой или равной версии чем тот, что уже установлен (предполагая, что <filename>/etc/apt/preferencs</filename> не был использован для повышения приоритета некоторых пакетов выше 1000)."
+msgstr "Всё крутится вокруг того, что APT рассматривает только пакеты более высокой или равной версии чем тот, что уже установлен (предполагая, что <filename>/etc/apt/preferences</filename> не был использован для повышения приоритета некоторых пакетов выше 1000)."
 
 #. Tag: title
 #, no-c-format
