@@ -16,182 +16,182 @@ msgstr ""
 #. Tag: keyword
 #, no-c-format
 msgid "Configuration"
-msgstr ""
+msgstr "Настройка"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Localization"
-msgstr ""
+msgstr "Локализация"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Locales"
-msgstr ""
+msgstr "Языковые настройки"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Network"
-msgstr ""
+msgstr "Сеть"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Name resolution"
-msgstr ""
+msgstr "Разрешение имён"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Users"
-msgstr ""
+msgstr "Пользователи"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Groups"
-msgstr ""
+msgstr "Группы"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Accounts"
-msgstr ""
+msgstr "Учётные записи"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Command-line interpreter"
-msgstr ""
+msgstr "Командный интерпретатор"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Shell"
-msgstr ""
+msgstr "Оболочка"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Printing"
-msgstr ""
+msgstr "Печать"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Bootloader"
-msgstr ""
+msgstr "Загрузчик"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Kernel compiling"
-msgstr ""
+msgstr "Компиляция ядра"
 
 #. Tag: title
 #, no-c-format
 msgid "Basic Configuration: Network, Accounts, Printing..."
-msgstr ""
+msgstr "Основые настройки: сеть, учётные записи, печать..."
 
 #. Tag: para
 #, no-c-format
 msgid "A computer with a new installation created with <command>debian-installer</command> is intended to be as functional as possible, but many services still have to be configured. Furthermore, it is always good to know how to change certain configuration elements defined during the initial installation process."
-msgstr ""
+msgstr "Подразумевается, что компьютер со свежеустановленной с помощью <command>debian-installer</command> системой будет настолько функционален, насколько это возможно, но многие службы всё ещё необходимо будет настройть. Более того, всегда полезно знать о том как изменить определённые элементы конфигурации, созданные во время первоначальной настройки."
 
 #. Tag: para
 #, no-c-format
 msgid "This chapter reviews everything included in what we could call the “basic configuration”: networking, language and locales, users and groups, printing, mount points, etc."
-msgstr ""
+msgstr "В этой главе представлен обзор тех элементов, что входят в так называемую “базовую настройку”: сеть, язык и языковые настройки, пользователи и группы, печать, точки монтирования и т. д."
 
 #. Tag: title
 #, no-c-format
 msgid "Configuring the System for Another Language"
-msgstr ""
+msgstr "Изменение системного языка"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>French localization</primary>"
-msgstr ""
+msgstr "<primary>Французская локализация</primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "If the system was installed using French, the machine will probably already have French set as the default language. But it is good to know what the installer does to set the language, so that later, if the need arises, you can change it."
-msgstr ""
+msgstr "Если система была установлена с использованием французского языка, то, скорее всего, этот язык уже будет установлен на компьютере в качестве языка по умолчанию. Но вам стоит знать как установщик настраивает текущий язык для того, чтоб вы могли его изменить при необходимости."
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>TOOL</emphasis> The <command>locale</command> command to display the current configuration"
-msgstr ""
+msgstr "<emphasis>ИНСТРУМЕНТ</emphasis> Команда <command>locale</command> для вывода текущей настройки"
 
 #. Tag: para
 #, no-c-format
 msgid "The <command>locale</command> command lists a summary of the current configuration of various locale parameters (date format, numbers format, etc.), presented in the form of a group of standard environment variables dedicated to the dynamic modification of these settings."
-msgstr ""
+msgstr "Команда <command>locale</command> выводит краткий список основных языковых настроек (формат даты, числовые форматы и т. д.), представленных в виде переменных окружения среды и предназначенных для оперативного изменения соответствующих настроек."
 
 #. Tag: title
 #, no-c-format
 msgid "Setting the Default Language"
-msgstr ""
+msgstr "Установка языка по умолчанию"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>locales</primary>"
-msgstr ""
+msgstr "<primary>языковые настройки</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>language</primary>"
-msgstr ""
+msgstr "<primary>язык</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><command>locale-gen</command></primary>"
-msgstr ""
+msgstr "<primary><command>locale-gen</command></primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "A locale is a group of regional settings. This includes not only the language for text, but also the format for displaying numbers, dates, times, and monetary sums, as well as the method for alphabetical comparison (for alphabetically ordering items, to include accented characters, where applicable). Although each of these parameters can be specified independently from the others, we generally will use one locale, which is a coherent set of values for these parameters corresponding to a “region” in the broadest sense. These locales are usually indicated under the form, <literal><replaceable>language-code</replaceable>_<replaceable>COUNTRY-CODE</replaceable></literal>, sometimes with a suffix to specify the character set and encoding to be used. This enables consideration of idiomatic or typographical differences between different regions with a common language."
-msgstr ""
+msgstr "Языковая настройка - это группа региональных настроек, которые включают в себя не только язык выводимого текста, но и формат представления чисел, дат, времён, денежных величин, а также методы алфавитного сравнения (для сортировки элементов по алфавиту, включая ударные буквы там, где это применимо). Каждый из этих параметров может быть определён независимо от остальных, но в большинстве случаев мы будем использовать одну языковую настройку, которая представляет из себя согласованный набор величин для этих параметров и соответствует определению “регион” в самом широком смысле. Эти языковые настройки обычно представляются в виде <literal><replaceable>код-языка</replaceable>_<replaceable>КОД-СТРАНЫ</replaceable></literal>, иногда с суффиксом, указывающим используемый набор символов и кодировок. Такой подход учитывает идиоматические и типографические особенности различных регионов с общим языком."
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>CULTURE</emphasis> Character sets"
-msgstr ""
+msgstr "<emphasis>КУЛЬТУРА</emphasis> Наборы символов"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>character set</primary>"
-msgstr ""
+msgstr "<primary>набор символов</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>encoding</primary>"
-msgstr ""
+msgstr "<primary>коодировка</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>ISO-8859-1</primary>"
-msgstr ""
+msgstr "<primary>ISO-8859-1</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>ISO-8859-15</primary>"
-msgstr ""
+msgstr "<primary>ISO-8859-15</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Latin 1</primary>"
-msgstr ""
+msgstr "<primary>Latin 1</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Latin 9</primary>"
-msgstr ""
+msgstr "<primary>Latin 9</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Latin 0</primary>"
-msgstr ""
+msgstr "<primary>Latin 0</primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "Historically, each locale has an associated “character set” (group of known characters) and a preferred “encoding” (internal representationfor characters within the computer)."
-msgstr ""
+msgstr "Исторически сложилось, что каждая языковая настройка имеет связанный с ней “набор символов” (группа известных символов) и предпочитаемую “кодировку” (внутреннее представление символов в компьютере)."
 
 #. Tag: para
 #, no-c-format
 msgid "The <emphasis>ISO-8859-1</emphasis> (or “Latin 1”) encoding, for instance, was used preferentially in France. But for historical reasons, it did not include certain characters (such as œ, Ÿ, and €). This problem prompted the creation of <emphasis>ISO-8859-15</emphasis> (or “Latin 9”, or even “Latin 0”). Among others, it replaced respectively the former international currency symbol (a circle with four branches, ¤), “½”,“¼” and “¾” with the Euro symbol “€”, “œ”, “Œ” and “Ÿ”. Since the encoding for these two sets uses a single octet (8 bits) for each character, the sets only have room for 256 characters. Other languages use other character sets or other encodings, either from the “Latin” family, or otherwise."
-msgstr ""
+msgstr "К примеру, Кодировка <emphasis>ISO-8859-1</emphasis> (или “Latin 1”) использовалась в основном во Франции. Но по историческим причинам она не соддержит определённых символов (таких как œ, Ÿ и €). "
 
 #. Tag: para
 #, no-c-format
